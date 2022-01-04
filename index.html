@@ -22,28 +22,25 @@
             maxZoom: 19
         });
         map.addLayer(osmLayer);
-		var poi= $.getJSON("test.umap",function(dataPoi){
-			var iconePoi = L.icon({
+		var iconePoi = L.icon({
 				iconUrl: 'point.png',
 				iconSize: [32, 41],
 				iconAnchor: [16, 41]
 			});	
-			var iconeResto = L.icon({
-				iconUrl: 'Resto-icon.png',
-				iconSize: [32, 41],
-				iconAnchor: [16, 41]
+		let importUmap = $.getJSON("test.umap", function(readData) {
+			readData.layers.forEach(dataPoi => {
+				L.geoJson(dataPoi,{
+					pointToLayer: function(feature,latlng){
+						var marker = L.marker(latlng,{icon: iconePoi});					
+						return marker;
+					},
+					onEachFeature: function(feature, layer) {
+						layer.bindPopup('<h1>'+feature.properties.name+'</h1><hr><br>'
+									+ feature.properties.description 
+									);
+					}
+				}).addTo(map);
 			});
-			L.geoJson(dataPoi,{
-				pointToLayer: function(feature,latlng){
-					var marker = L.marker(latlng,{icon: iconePoi});					
-					return marker;
-				},
-				onEachFeature: function(feature, layer) {
-					layer.bindPopup('<h1>'+feature.properties.name+'</h1><hr><br>'
-								   + feature.properties.description 
-								   );
-				}
-			}).addTo(map);
 		});
 		map.locate({setView: true, maxZoom: 16});
 		function onLocationFound(e) {
