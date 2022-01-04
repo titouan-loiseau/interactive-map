@@ -74,229 +74,6 @@
               ]
             ]
           }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "name": "Lac de Maine"
-          },
-          "geometry": {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  -0.593648,
-                  47.453543
-                ],
-                [
-                  -0.592618,
-                  47.45334
-                ],
-                [
-                  -0.592446,
-                  47.453804
-                ],
-                [
-                  -0.592017,
-                  47.454007
-                ],
-                [
-                  -0.591674,
-                  47.454704
-                ],
-                [
-                  -0.592875,
-                  47.455226
-                ],
-                [
-                  -0.593734,
-                  47.455342
-                ],
-                [
-                  -0.59382,
-                  47.455864
-                ],
-                [
-                  -0.594978,
-                  47.456735
-                ],
-                [
-                  -0.594893,
-                  47.45717
-                ],
-                [
-                  -0.594978,
-                  47.457576
-                ],
-                [
-                  -0.594249,
-                  47.458273
-                ],
-                [
-                  -0.593734,
-                  47.458244
-                ],
-                [
-                  -0.593004,
-                  47.458621
-                ],
-                [
-                  -0.592017,
-                  47.45894
-                ],
-                [
-                  -0.591674,
-                  47.459491
-                ],
-                [
-                  -0.59176,
-                  47.460101
-                ],
-                [
-                  -0.590301,
-                  47.461261
-                ],
-                [
-                  -0.589142,
-                  47.461523
-                ],
-                [
-                  -0.588369,
-                  47.461493
-                ],
-                [
-                  -0.586696,
-                  47.462016
-                ],
-                [
-                  -0.586138,
-                  47.462393
-                ],
-                [
-                  -0.584335,
-                  47.463176
-                ],
-                [
-                  -0.584164,
-                  47.46454
-                ],
-                [
-                  -0.581331,
-                  47.464627
-                ],
-                [
-                  -0.580602,
-                  47.464801
-                ],
-                [
-                  -0.580087,
-                  47.464366
-                ],
-                [
-                  -0.578456,
-                  47.464018
-                ],
-                [
-                  -0.577812,
-                  47.463815
-                ],
-                [
-                  -0.577383,
-                  47.463002
-                ],
-                [
-                  -0.577254,
-                  47.462451
-                ],
-                [
-                  -0.577941,
-                  47.46129
-                ],
-                [
-                  -0.57837,
-                  47.460449
-                ],
-                [
-                  -0.579057,
-                  47.459695
-                ],
-                [
-                  -0.58043,
-                  47.458099
-                ],
-                [
-                  -0.582576,
-                  47.456619
-                ],
-                [
-                  -0.584421,
-                  47.45511
-                ],
-                [
-                  -0.583305,
-                  47.454501
-                ],
-                [
-                  -0.586138,
-                  47.453021
-                ],
-                [
-                  -0.589356,
-                  47.45186
-                ],
-                [
-                  -0.592489,
-                  47.450525
-                ],
-                [
-                  -0.593476,
-                  47.450873
-                ],
-                [
-                  -0.592704,
-                  47.45157
-                ],
-                [
-                  -0.593734,
-                  47.452963
-                ],
-                [
-                  -0.59382,
-                  47.453253
-                ],
-                [
-                  -0.593648,
-                  47.453543
-                ]
-              ]
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "name": "Maison d'Adam"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -0.554079,
-              47.470383
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "name": "Terra Botanica"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -0.569487,
-              47.501968
-            ]
-          }
         }
       ],
       "_umap_options": {
@@ -352,7 +129,9 @@
           "properties": {
             "_umap_options": {
               "iconClass": "Drop",
-              "iconUrl": "/uploads/pictogram/college-24_1.png"
+              "iconUrl": "/uploads/pictogram/college-24_1.png",
+              "showLabel": null,
+              "labelInteractive": true
             },
             "name": "Polytech Angers",
             "description": "Campus Belle-Beille :\n\nTiming: 7:45 am - 07:30 pm\nAddress: 62 Av. de Notre Dame du Lac, 49000 Angers\nContact: +33244687500\n"
@@ -380,6 +159,44 @@
             "coordinates": [
               -0.559804,
               47.479628
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "UCO",
+            "description": "campus de bourgeois"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -0.548383,
+                  47.464301
+                ],
+                [
+                  -0.546666,
+                  47.461327
+                ],
+                [
+                  -0.545175,
+                  47.462146
+                ],
+                [
+                  -0.545089,
+                  47.46322
+                ],
+                [
+                  -0.548104,
+                  47.464446
+                ],
+                [
+                  -0.548383,
+                  47.464301
+                ]
+              ]
             ]
           }
         }
@@ -720,7 +537,8 @@
         {
           "type": "Feature",
           "properties": {
-            "name": "L'Atoll"
+            "name": "L'Atoll",
+            "description": "Ecoparc du Buisson, 49073 Beaucouzé\n\nIt is the largest shopping center in the West with 71,000 m² of retail space."
           },
           "geometry": {
             "type": "Polygon",
@@ -854,8 +672,8 @@
         "name": "commerces",
         "iconUrl": "/uploads/pictogram/grocery-24.png",
         "id": 2029320,
-        "color": "PowderBlue",
-        "fill": true
+        "fill": true,
+        "color": "DodgerBlue"
       }
     },
     {
@@ -867,7 +685,8 @@
             "name": "American Fury",
             "_umap_options": {
               "iconUrl": "/uploads/pictogram/bar-24_1.png"
-            }
+            },
+            "description": "7 boulevard Carnot\nA nice bar where you can let off steam by throwing axes at a target. Could you beat the record of 5 axes in the target in a row?\n"
           },
           "geometry": {
             "type": "Point",
@@ -880,7 +699,8 @@
         {
           "type": "Feature",
           "properties": {
-            "name": "l'Okapi"
+            "name": "l'Okapi",
+            "description": "15 Rue des Deux Haies\nA great bar where you can find some good cocktails. You can also find many shots notably the ‘’Dans ta gueule’’ which is a burning shot."
           },
           "geometry": {
             "type": "Point",
@@ -913,7 +733,8 @@
             "name": "Le Welsh",
             "_umap_options": {
               "iconUrl": "/uploads/pictogram/bar-24_1.png"
-            }
+            },
+            "description": "25 place louis imbach\nA bar which has the particularity to propose board games, you will be able to spend good moments here with your friends."
           },
           "geometry": {
             "type": "Point",
@@ -972,6 +793,32 @@
         {
           "type": "Feature",
           "properties": {
+            "name": "Climb Up"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.50032,
+              47.43361
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Ice Park"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.54893,
+              47.480117
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
             "name": "Stade de Frémur"
           },
           "geometry": {
@@ -979,19 +826,6 @@
             "coordinates": [
               -0.557728,
               47.456532
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "name": "Stade de la Baumette"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -0.569229,
-              47.46335
             ]
           }
         },
@@ -1011,13 +845,27 @@
         {
           "type": "Feature",
           "properties": {
+            "name": "Stade Raymond Kopa",
+            "description": "Stade Raymond Kopa is a football stadium in Angers, France. It is the home ground of Ligue 1 side Angers SCO and seats 18,752 people. It is named after Raymond Kopa, a French football legend who made his professional debut with the club.\n\nAddress: Bd Pierre de Coubertin, 49000 Angers\nContact: +33241474356"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.530927,
+              47.460391
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
             "name": "SUAPS"
           },
           "geometry": {
             "type": "Point",
             "coordinates": [
-              -0.598229,
-              47.480241
+              -0.59824,
+              47.480437
             ]
           }
         }
@@ -1037,7 +885,9 @@
       "features": [
         {
           "type": "Feature",
-          "properties": {},
+          "properties": {
+            "name": " Jardin des Plantes"
+          },
           "geometry": {
             "type": "Polygon",
             "coordinates": [
@@ -1101,16 +951,478 @@
               ]
             ]
           }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Jardin des Plantes",
+            "description": "Botanical garden of the eighteenth century populated with various species, then developed with streams, paths and statues."
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.544209,
+              47.474969
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Lac de Maine"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -0.594335,
+                  47.449683
+                ],
+                [
+                  -0.596094,
+                  47.452005
+                ],
+                [
+                  -0.596266,
+                  47.455777
+                ],
+                [
+                  -0.595408,
+                  47.457402
+                ],
+                [
+                  -0.596824,
+                  47.457867
+                ],
+                [
+                  -0.595193,
+                  47.462538
+                ],
+                [
+                  -0.59382,
+                  47.464047
+                ],
+                [
+                  -0.592146,
+                  47.465671
+                ],
+                [
+                  -0.591202,
+                  47.4666
+                ],
+                [
+                  -0.589829,
+                  47.467615
+                ],
+                [
+                  -0.588369,
+                  47.468457
+                ],
+                [
+                  -0.587468,
+                  47.468369
+                ],
+                [
+                  -0.585966,
+                  47.467702
+                ],
+                [
+                  -0.584421,
+                  47.466919
+                ],
+                [
+                  -0.583091,
+                  47.466484
+                ],
+                [
+                  -0.582061,
+                  47.465933
+                ],
+                [
+                  -0.580645,
+                  47.465497
+                ],
+                [
+                  -0.579186,
+                  47.46512
+                ],
+                [
+                  -0.577254,
+                  47.464627
+                ],
+                [
+                  -0.575838,
+                  47.464453
+                ],
+                [
+                  -0.576825,
+                  47.462741
+                ],
+                [
+                  -0.577684,
+                  47.461232
+                ],
+                [
+                  -0.578413,
+                  47.459724
+                ],
+                [
+                  -0.579228,
+                  47.458418
+                ],
+                [
+                  -0.580258,
+                  47.456677
+                ],
+                [
+                  -0.581675,
+                  47.455255
+                ],
+                [
+                  -0.584228,
+                  47.453862
+                ],
+                [
+                  -0.589271,
+                  47.451976
+                ],
+                [
+                  -0.594335,
+                  47.449683
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Lac de Maine",
+            "description": "Artificial lake created by the municipality, on the shores of which a recreational park has been developed."
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.587769,
+              47.460014
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Parc Balzac"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -0.584142,
+                  47.467934
+                ],
+                [
+                  -0.584464,
+                  47.467775
+                ],
+                [
+                  -0.583113,
+                  47.467224
+                ],
+                [
+                  -0.581696,
+                  47.466484
+                ],
+                [
+                  -0.580967,
+                  47.466223
+                ],
+                [
+                  -0.579873,
+                  47.465846
+                ],
+                [
+                  -0.578413,
+                  47.465483
+                ],
+                [
+                  -0.576804,
+                  47.465222
+                ],
+                [
+                  -0.575259,
+                  47.464961
+                ],
+                [
+                  -0.568715,
+                  47.469762
+                ],
+                [
+                  -0.569294,
+                  47.470096
+                ],
+                [
+                  -0.571719,
+                  47.470618
+                ],
+                [
+                  -0.573907,
+                  47.4713
+                ],
+                [
+                  -0.57556,
+                  47.472127
+                ],
+                [
+                  -0.57719,
+                  47.472968
+                ],
+                [
+                  -0.577598,
+                  47.472257
+                ],
+                [
+                  -0.578714,
+                  47.471692
+                ],
+                [
+                  -0.580559,
+                  47.47175
+                ],
+                [
+                  -0.580709,
+                  47.471169
+                ],
+                [
+                  -0.580602,
+                  47.470966
+                ],
+                [
+                  -0.580259,
+                  47.470792
+                ],
+                [
+                  -0.581804,
+                  47.468805
+                ],
+                [
+                  -0.583048,
+                  47.46821
+                ],
+                [
+                  -0.583649,
+                  47.467891
+                ],
+                [
+                  -0.584142,
+                  47.467934
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Parc Balzac",
+            "description": "Bridges and footpaths overlooking the Maine River and linking green spaces and canals."
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.576911,
+              47.469907
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Parc du Mail"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -0.546806,
+                  47.471256
+                ],
+                [
+                  -0.547509,
+                  47.470436
+                ],
+                [
+                  -0.545985,
+                  47.4699
+                ],
+                [
+                  -0.545754,
+                  47.469646
+                ],
+                [
+                  -0.544703,
+                  47.469243
+                ],
+                [
+                  -0.54451,
+                  47.46953
+                ],
+                [
+                  -0.544408,
+                  47.469573
+                ],
+                [
+                  -0.544215,
+                  47.469631
+                ],
+                [
+                  -0.544134,
+                  47.469744
+                ],
+                [
+                  -0.544097,
+                  47.469838
+                ],
+                [
+                  -0.544183,
+                  47.470019
+                ],
+                [
+                  -0.54415,
+                  47.470143
+                ],
+                [
+                  -0.544011,
+                  47.470324
+                ],
+                [
+                  -0.546806,
+                  47.471256
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Parc du Mail",
+            "description": "Urban garden with a wrought-iron gazebo, fountain and classical flowerbeds."
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.545497,
+              47.470262
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Terra Botanica",
+            "description": "Live an experience guided on a boat and explore the park. The park  is an immense botanical garden with plants from all over the world. you’ll also be able to look at  an imitation of the Louisiana Bayou."
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.569487,
+              47.501968
+            ]
+          }
         }
       ],
       "_umap_options": {
         "displayOnLoad": true,
         "browsable": true,
         "remoteData": {},
-        "name": "park",
+        "name": "park/lake/forest",
         "color": "Green",
         "id": 2029419,
         "iconUrl": "/uploads/pictogram/park-24_1.png"
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Arena Loire",
+            "description": "With Patoche des fois"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.477111,
+              47.442486
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Cinéma Pathé"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.550089,
+              47.47924
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Maison d'Adam",
+            "description": "This is a popular tourist spot. It is a building made half of timber and half of stone. It is located behind the Cathedral and is a symbol of the architecture of the times\n\nMaison D Adam Timing: 09:30 am - 07:00 pm\nAddress: 1 Place Sainte-Croix, 49100 Angers\nContact: +33241880627"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.554079,
+              47.470383
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Théatre \"Le Quai\""
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.564492,
+              47.472351
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Town Hall"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.548083,
+              47.471325
+            ]
+          }
+        }
+      ],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {},
+        "name": "Culture",
+        "color": "DarkOrchid",
+        "iconUrl": "/uploads/pictogram/theatre-24-white.png",
+        "id": 2029442
       }
     }
   ]

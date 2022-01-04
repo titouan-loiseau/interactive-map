@@ -32,7 +32,7 @@
         });
         map.addLayer(osmLayer);
 
-		// 0: important places, 1: schools and universities, 2: ATM, 3: commerces, 4: Bars, 5: Gare, 6: Sports, 7: Park
+		// 0: important places, 1: schools and universities, 2: ATM, 3: commerces, 4: Bars, 5: Gare, 6: Sports, 7: Park, 8: culture
 
 		let iconArray = [
 			L.icon({
@@ -71,7 +71,12 @@
 				iconAnchor: [16, 41]
 			}),
 			L.icon({
-				iconUrl: 'icons/park.png',
+				iconUrl: 'icons/parks.png',
+				iconSize: [32, 41],
+				iconAnchor: [16, 41]
+			}),
+			L.icon({
+				iconUrl: 'icons/culture.png',
 				iconSize: [32, 41],
 				iconAnchor: [16, 41]
 			})
