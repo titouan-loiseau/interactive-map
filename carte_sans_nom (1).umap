@@ -1,0 +1,1428 @@
+{
+  "type": "umap",
+  "uri": "https://umap.openstreetmap.fr/fr/map/carte-sans-nom_699285#16/47.4738/-0.5647",
+  "properties": {
+    "easing": true,
+    "embedControl": true,
+    "fullscreenControl": true,
+    "searchControl": true,
+    "datalayersControl": true,
+    "zoomControl": true,
+    "slideshow": {},
+    "captionBar": false,
+    "limitBounds": {},
+    "tilelayer": {},
+    "licence": "",
+    "description": "",
+    "name": "Carte sans nom",
+    "displayPopupFooter": false,
+    "miniMap": false,
+    "moreControl": true,
+    "scaleControl": true,
+    "scrollWheelZoom": true,
+    "zoom": 20
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -0.5596764385700227,
+      47.473927433080185
+    ]
+  },
+  "layers": [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "description": "This impressive castle in Angers is more than 800 years old and was originally a fort. This castle is 100 yards long and contains a lot of art to contemplate, for example it contains on its walls the Apocalypse Tapestry.\n\nAddress: 2 Prom. du Bout du Monde, 49100 Angers\nContact: +33241864877\nTimings: 10am - 5:30pm\n",
+            "name": "Château d’Angers"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -0.560206,
+                  47.469414
+                ],
+                [
+                  -0.561644,
+                  47.47003
+                ],
+                [
+                  -0.559509,
+                  47.47098
+                ],
+                [
+                  -0.558039,
+                  47.469856
+                ],
+                [
+                  -0.558726,
+                  47.46887
+                ],
+                [
+                  -0.559509,
+                  47.469124
+                ],
+                [
+                  -0.560206,
+                  47.469414
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "name": "Important places",
+        "id": 2029231,
+        "remoteData": {}
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {},
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.597591,
+              47.477012
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "campus Saint Serge"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -0.552868,
+                  47.477812
+                ],
+                [
+                  -0.551376,
+                  47.479443
+                ],
+                [
+                  -0.548286,
+                  47.478138
+                ],
+                [
+                  -0.549799,
+                  47.476579
+                ],
+                [
+                  -0.551291,
+                  47.477202
+                ],
+                [
+                  -0.552868,
+                  47.477812
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "iconClass": "Drop",
+              "iconUrl": "/uploads/pictogram/college-24_1.png",
+              "showLabel": null,
+              "labelInteractive": true
+            },
+            "name": "Polytech Angers",
+            "description": "Campus Belle-Beille :\n\nTiming: 7:45 am - 07:30 pm\nAddress: 62 Av. de Notre Dame du Lac, 49000 Angers\nContact: +33244687500\n"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.592189,
+              47.480582
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "iconClass": "Drop",
+              "iconUrl": "/uploads/pictogram/college-24_1.png"
+            },
+            "name": "Polytech Angers",
+            "description": "Campus Santé :\n\nTiming: ??:?? am - ??:?? pm\nAddress: 16 Bd Daviers, 49100 Angers, \nContact: +33244687500\n"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.559804,
+              47.479628
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "UCO",
+            "description": "campus de bourgeois"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -0.548383,
+                  47.464301
+                ],
+                [
+                  -0.546666,
+                  47.461327
+                ],
+                [
+                  -0.545175,
+                  47.462146
+                ],
+                [
+                  -0.545089,
+                  47.46322
+                ],
+                [
+                  -0.548104,
+                  47.464446
+                ],
+                [
+                  -0.548383,
+                  47.464301
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {},
+        "id": 2029265,
+        "name": "Schools and Universities",
+        "iconClass": "Drop",
+        "iconUrl": "/uploads/pictogram/college-24_1.png"
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "color": "Gold",
+              "iconUrl": "/uploads/pictogram/bank-24.png"
+            },
+            "name": "CIC"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.552349,
+              47.469891
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "color": "Gold",
+              "iconUrl": "/uploads/pictogram/bank-24.png"
+            },
+            "name": "Crédit Agricole"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.55202,
+              47.471686
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "color": "Gold",
+              "iconUrl": "/uploads/pictogram/bank-24.png"
+            },
+            "name": "Crédit Agricole"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.547259,
+              47.469804
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "color": "Gold",
+              "iconUrl": "/uploads/pictogram/bank-24.png"
+            },
+            "name": "Crédit Mutuel"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.547002,
+              47.470041
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "color": "Gold",
+              "iconUrl": "/uploads/pictogram/bank-24.png"
+            },
+            "name": "Dab Credit Agricole",
+            "description": "Distributeur de billets"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.565509,
+              47.478522
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "color": "Gold",
+              "iconUrl": "/uploads/pictogram/bank-24.png"
+            },
+            "name": "Dab Credit Mutuel",
+            "description": ""
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.550164,
+              47.472964
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "color": "Gold",
+              "iconUrl": "/uploads/pictogram/bank-24.png"
+            },
+            "name": "La Banque Postale"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.5605,
+              47.474127
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "iconUrl": "/uploads/pictogram/bank-24.png",
+              "color": "Gold"
+            },
+            "name": "Point Nickel - LE MONTESQUIEU",
+            "description": "Distributeur de billet"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.580059,
+              47.473662
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "color": "Gold",
+              "iconUrl": "/uploads/pictogram/bank-24.png"
+            },
+            "name": "Point Nickel - TABAC LE TABAGO",
+            "description": "Distributeur de billets"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.593849,
+              47.466569
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "color": "Gold",
+              "iconUrl": "/uploads/pictogram/bank-24.png"
+            },
+            "name": "Société Générale"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.550081,
+              47.470183
+            ]
+          }
+        }
+      ],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {},
+        "name": "Distributeur de billet",
+        "id": 2029277,
+        "color": "Gold",
+        "iconUrl": "/uploads/pictogram/bank-24.png"
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Carrefour City"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.549249,
+              47.475154
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Carrefour Grand Maine"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.595461,
+              47.46834
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Carrefour Saint  Serge"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.541769,
+              47.489373
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Fnac"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.551284,
+              47.472016
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Galerie Espace Anjou"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -0.524565,
+                  47.467129
+                ],
+                [
+                  -0.525295,
+                  47.467535
+                ],
+                [
+                  -0.525209,
+                  47.467913
+                ],
+                [
+                  -0.524865,
+                  47.468195
+                ],
+                [
+                  -0.524576,
+                  47.468246
+                ],
+                [
+                  -0.523664,
+                  47.467876
+                ],
+                [
+                  -0.523535,
+                  47.467862
+                ],
+                [
+                  -0.523031,
+                  47.468435
+                ],
+                [
+                  -0.522891,
+                  47.468471
+                ],
+                [
+                  -0.521786,
+                  47.467971
+                ],
+                [
+                  -0.52067,
+                  47.46726
+                ],
+                [
+                  -0.521153,
+                  47.466564
+                ],
+                [
+                  -0.521711,
+                  47.466484
+                ],
+                [
+                  -0.523106,
+                  47.466658
+                ],
+                [
+                  -0.523632,
+                  47.466767
+                ],
+                [
+                  -0.523964,
+                  47.46689
+                ],
+                [
+                  -0.524565,
+                  47.467129
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "L'Atoll",
+            "description": "Ecoparc du Buisson, 49073 Beaucouzé\n\nIt is the largest shopping center in the West with 71,000 m² of retail space."
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -0.63019,
+                  47.484149
+                ],
+                [
+                  -0.630126,
+                  47.484613
+                ],
+                [
+                  -0.62974,
+                  47.485193
+                ],
+                [
+                  -0.629042,
+                  47.485816
+                ],
+                [
+                  -0.62856,
+                  47.486077
+                ],
+                [
+                  -0.62798,
+                  47.486317
+                ],
+                [
+                  -0.627444,
+                  47.486469
+                ],
+                [
+                  -0.626982,
+                  47.486549
+                ],
+                [
+                  -0.626264,
+                  47.486592
+                ],
+                [
+                  -0.625749,
+                  47.486578
+                ],
+                [
+                  -0.625277,
+                  47.48652
+                ],
+                [
+                  -0.624354,
+                  47.486309
+                ],
+                [
+                  -0.624011,
+                  47.486048
+                ],
+                [
+                  -0.623538,
+                  47.485621
+                ],
+                [
+                  -0.623388,
+                  47.485367
+                ],
+                [
+                  -0.623496,
+                  47.484461
+                ],
+                [
+                  -0.623742,
+                  47.484011
+                ],
+                [
+                  -0.624214,
+                  47.483547
+                ],
+                [
+                  -0.624536,
+                  47.483322
+                ],
+                [
+                  -0.625105,
+                  47.48317
+                ],
+                [
+                  -0.625716,
+                  47.48309
+                ],
+                [
+                  -0.626339,
+                  47.483032
+                ],
+                [
+                  -0.626993,
+                  47.483025
+                ],
+                [
+                  -0.627862,
+                  47.483054
+                ],
+                [
+                  -0.62857,
+                  47.483119
+                ],
+                [
+                  -0.629472,
+                  47.483301
+                ],
+                [
+                  -0.63018,
+                  47.483997
+                ],
+                [
+                  -0.630182,
+                  47.484076
+                ],
+                [
+                  -0.63019,
+                  47.484149
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {},
+        "name": "commerces",
+        "iconUrl": "/uploads/pictogram/grocery-24.png",
+        "id": 2029320,
+        "fill": true,
+        "color": "DodgerBlue"
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "American Fury",
+            "_umap_options": {
+              "iconUrl": "/uploads/pictogram/bar-24_1.png"
+            },
+            "description": "7 boulevard Carnot\nA nice bar where you can let off steam by throwing axes at a target. Could you beat the record of 5 axes in the target in a row?\n"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.547912,
+              47.475179
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "l'Okapi",
+            "description": "15 Rue des Deux Haies\nA great bar where you can find some good cocktails. You can also find many shots notably the ‘’Dans ta gueule’’ which is a burning shot."
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.552573,
+              47.471566
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "La Cave de la Trinquette",
+            "description": "Pour les mines",
+            "_umap_options": {
+              "iconUrl": "/uploads/pictogram/bar-24_1.png"
+            }
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.547204,
+              47.474852
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Le Welsh",
+            "_umap_options": {
+              "iconUrl": "/uploads/pictogram/bar-24_1.png"
+            },
+            "description": "25 place louis imbach\nA bar which has the particularity to propose board games, you will be able to spend good moments here with your friends."
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.548048,
+              47.474111
+            ]
+          }
+        }
+      ],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {},
+        "name": "Bars",
+        "iconClass": "Drop",
+        "iconUrl": "/uploads/pictogram/bar-24_1.png",
+        "id": 2029393
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "color": "Crimson",
+              "iconClass": "Default",
+              "iconUrl": "/uploads/pictogram/rail-24-white.png"
+            },
+            "name": "Gare Angers Saint-Laud"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.556821,
+              47.464551
+            ]
+          }
+        }
+      ],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {},
+        "name": "Gare",
+        "color": "Crimson",
+        "iconUrl": "/uploads/pictogram/rail-24-white.png",
+        "id": 2029408
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Climb Up"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.50032,
+              47.43361
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Ice Park"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.54893,
+              47.480117
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Stade Mikulak"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.583777,
+              47.469356
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Stade Raymond Kopa",
+            "description": "Stade Raymond Kopa is a football stadium in Angers, France. It is the home ground of Ligue 1 side Angers SCO and seats 18,752 people. It is named after Raymond Kopa, a French football legend who made his professional debut with the club.\n\nAddress: Bd Pierre de Coubertin, 49000 Angers\nContact: +33241474356"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.530927,
+              47.460391
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "SUAPS"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.59824,
+              47.480437
+            ]
+          }
+        }
+      ],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {},
+        "name": "Sport",
+        "color": "Blue",
+        "iconUrl": "/uploads/pictogram/soccer-24_1.png",
+        "id": 2029420
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "name": " Jardin des Plantes"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -0.546141,
+                  47.474983
+                ],
+                [
+                  -0.545068,
+                  47.4761
+                ],
+                [
+                  -0.543147,
+                  47.475361
+                ],
+                [
+                  -0.542632,
+                  47.474918
+                ],
+                [
+                  -0.542911,
+                  47.474672
+                ],
+                [
+                  -0.542225,
+                  47.474244
+                ],
+                [
+                  -0.542439,
+                  47.47399
+                ],
+                [
+                  -0.543158,
+                  47.474266
+                ],
+                [
+                  -0.543426,
+                  47.47399
+                ],
+                [
+                  -0.544252,
+                  47.474258
+                ],
+                [
+                  -0.544628,
+                  47.473859
+                ],
+                [
+                  -0.545261,
+                  47.474055
+                ],
+                [
+                  -0.544993,
+                  47.474476
+                ],
+                [
+                  -0.546141,
+                  47.474983
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Jardin des Plantes",
+            "description": "Botanical garden of the eighteenth century populated with various species, then developed with streams, paths and statues."
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.544209,
+              47.474969
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Lac de Maine"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -0.594335,
+                  47.449683
+                ],
+                [
+                  -0.596094,
+                  47.452005
+                ],
+                [
+                  -0.596266,
+                  47.455777
+                ],
+                [
+                  -0.595408,
+                  47.457402
+                ],
+                [
+                  -0.596824,
+                  47.457867
+                ],
+                [
+                  -0.595193,
+                  47.462538
+                ],
+                [
+                  -0.59382,
+                  47.464047
+                ],
+                [
+                  -0.592146,
+                  47.465671
+                ],
+                [
+                  -0.591202,
+                  47.4666
+                ],
+                [
+                  -0.589829,
+                  47.467615
+                ],
+                [
+                  -0.588369,
+                  47.468457
+                ],
+                [
+                  -0.587468,
+                  47.468369
+                ],
+                [
+                  -0.585966,
+                  47.467702
+                ],
+                [
+                  -0.584421,
+                  47.466919
+                ],
+                [
+                  -0.583091,
+                  47.466484
+                ],
+                [
+                  -0.582061,
+                  47.465933
+                ],
+                [
+                  -0.580645,
+                  47.465497
+                ],
+                [
+                  -0.579186,
+                  47.46512
+                ],
+                [
+                  -0.577254,
+                  47.464627
+                ],
+                [
+                  -0.575838,
+                  47.464453
+                ],
+                [
+                  -0.576825,
+                  47.462741
+                ],
+                [
+                  -0.577684,
+                  47.461232
+                ],
+                [
+                  -0.578413,
+                  47.459724
+                ],
+                [
+                  -0.579228,
+                  47.458418
+                ],
+                [
+                  -0.580258,
+                  47.456677
+                ],
+                [
+                  -0.581675,
+                  47.455255
+                ],
+                [
+                  -0.584228,
+                  47.453862
+                ],
+                [
+                  -0.589271,
+                  47.451976
+                ],
+                [
+                  -0.594335,
+                  47.449683
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Lac de Maine",
+            "description": "Artificial lake created by the municipality, on the shores of which a recreational park has been developed."
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.587769,
+              47.460014
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Parc Balzac"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -0.584142,
+                  47.467934
+                ],
+                [
+                  -0.584464,
+                  47.467775
+                ],
+                [
+                  -0.583113,
+                  47.467224
+                ],
+                [
+                  -0.581696,
+                  47.466484
+                ],
+                [
+                  -0.580967,
+                  47.466223
+                ],
+                [
+                  -0.579873,
+                  47.465846
+                ],
+                [
+                  -0.578413,
+                  47.465483
+                ],
+                [
+                  -0.576804,
+                  47.465222
+                ],
+                [
+                  -0.575259,
+                  47.464961
+                ],
+                [
+                  -0.568715,
+                  47.469762
+                ],
+                [
+                  -0.569294,
+                  47.470096
+                ],
+                [
+                  -0.571719,
+                  47.470618
+                ],
+                [
+                  -0.573907,
+                  47.4713
+                ],
+                [
+                  -0.57556,
+                  47.472127
+                ],
+                [
+                  -0.57719,
+                  47.472968
+                ],
+                [
+                  -0.577598,
+                  47.472257
+                ],
+                [
+                  -0.578714,
+                  47.471692
+                ],
+                [
+                  -0.580559,
+                  47.47175
+                ],
+                [
+                  -0.580709,
+                  47.471169
+                ],
+                [
+                  -0.580602,
+                  47.470966
+                ],
+                [
+                  -0.580259,
+                  47.470792
+                ],
+                [
+                  -0.581804,
+                  47.468805
+                ],
+                [
+                  -0.583048,
+                  47.46821
+                ],
+                [
+                  -0.583649,
+                  47.467891
+                ],
+                [
+                  -0.584142,
+                  47.467934
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Parc Balzac",
+            "description": "Bridges and footpaths overlooking the Maine River and linking green spaces and canals."
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.576911,
+              47.469907
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Parc du Mail"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -0.546806,
+                  47.471256
+                ],
+                [
+                  -0.547509,
+                  47.470436
+                ],
+                [
+                  -0.545985,
+                  47.4699
+                ],
+                [
+                  -0.545754,
+                  47.469646
+                ],
+                [
+                  -0.544703,
+                  47.469243
+                ],
+                [
+                  -0.54451,
+                  47.46953
+                ],
+                [
+                  -0.544408,
+                  47.469573
+                ],
+                [
+                  -0.544215,
+                  47.469631
+                ],
+                [
+                  -0.544134,
+                  47.469744
+                ],
+                [
+                  -0.544097,
+                  47.469838
+                ],
+                [
+                  -0.544183,
+                  47.470019
+                ],
+                [
+                  -0.54415,
+                  47.470143
+                ],
+                [
+                  -0.544011,
+                  47.470324
+                ],
+                [
+                  -0.546806,
+                  47.471256
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Parc du Mail",
+            "description": "Urban garden with a wrought-iron gazebo, fountain and classical flowerbeds."
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.545497,
+              47.470262
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Terra Botanica",
+            "description": "Live an experience guided on a boat and explore the park. The park  is an immense botanical garden with plants from all over the world. you’ll also be able to look at  an imitation of the Louisiana Bayou."
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.569487,
+              47.501968
+            ]
+          }
+        }
+      ],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {},
+        "name": "park/lake/forest",
+        "color": "Green",
+        "id": 2029419,
+        "iconUrl": "/uploads/pictogram/park-24_1.png"
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Arena Loire",
+            "description": "With Patoche des fois"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.477111,
+              47.442486
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Cinéma Pathé"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.550089,
+              47.47924
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Maison d'Adam",
+            "description": "This is a popular tourist spot. It is a building made half of timber and half of stone. It is located behind the Cathedral and is a symbol of the architecture of the times\n\nMaison D Adam Timing: 09:30 am - 07:00 pm\nAddress: 1 Place Sainte-Croix, 49100 Angers\nContact: +33241880627"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.554079,
+              47.470383
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Théatre \"Le Quai\""
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.564492,
+              47.472351
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Town Hall"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.548083,
+              47.471325
+            ]
+          }
+        }
+      ],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {},
+        "name": "Culture",
+        "color": "DarkOrchid",
+        "iconUrl": "/uploads/pictogram/theatre-24-white.png",
+        "id": 2029442
+      }
+    }
+  ]
+}
