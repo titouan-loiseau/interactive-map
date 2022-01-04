@@ -1,6 +1,6 @@
 {
   "type": "umap",
-  "uri": "https://umap.openstreetmap.fr/fr/map/carte-sans-nom_699285#16/47.4767/-0.5469",
+  "uri": "https://umap.openstreetmap.fr/fr/map/carte-sans-nom_699285#14/47.4840/-0.5401",
   "properties": {
     "easing": true,
     "embedControl": true,
@@ -69,242 +69,6 @@
                   47.469414
                 ]
               ]
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "name": "American Fury",
-            "_umap_options": {
-              "iconUrl": "/uploads/pictogram/bar-24_1.png"
-            }
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -0.547912,
-              47.475179
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "name": "Campus Belle Beille"
-          },
-          "geometry": {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  -0.609784,
-                  47.485193
-                ],
-                [
-                  -0.609484,
-                  47.477652
-                ],
-                [
-                  -0.605493,
-                  47.478435
-                ],
-                [
-                  -0.599227,
-                  47.477275
-                ],
-                [
-                  -0.597382,
-                  47.47974
-                ],
-                [
-                  -0.594335,
-                  47.480843
-                ],
-                [
-                  -0.609784,
-                  47.485193
-                ]
-              ]
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "name": "Dauversière Place",
-            "description": "Your place of reference for all itinerant events such as the wonderful Zapatta circus"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -0.587565,
-              47.478152
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "name": "L'Atoll"
-          },
-          "geometry": {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  -0.63018,
-                  47.484105
-                ],
-                [
-                  -0.630126,
-                  47.484417
-                ],
-                [
-                  -0.630008,
-                  47.484772
-                ],
-                [
-                  -0.629643,
-                  47.485302
-                ],
-                [
-                  -0.629128,
-                  47.485722
-                ],
-                [
-                  -0.628324,
-                  47.486164
-                ],
-                [
-                  -0.627658,
-                  47.486382
-                ],
-                [
-                  -0.627208,
-                  47.486491
-                ],
-                [
-                  -0.626789,
-                  47.486563
-                ],
-                [
-                  -0.626296,
-                  47.486599
-                ],
-                [
-                  -0.625749,
-                  47.486585
-                ],
-                [
-                  -0.625427,
-                  47.486549
-                ],
-                [
-                  -0.624611,
-                  47.486425
-                ],
-                [
-                  -0.623957,
-                  47.486012
-                ],
-                [
-                  -0.623496,
-                  47.485635
-                ],
-                [
-                  -0.623431,
-                  47.48536
-                ],
-                [
-                  -0.623517,
-                  47.484381
-                ],
-                [
-                  -0.62386,
-                  47.483881
-                ],
-                [
-                  -0.624322,
-                  47.483402
-                ],
-                [
-                  -0.624976,
-                  47.483192
-                ],
-                [
-                  -0.625641,
-                  47.483098
-                ],
-                [
-                  -0.626371,
-                  47.483032
-                ],
-                [
-                  -0.62694,
-                  47.483025
-                ],
-                [
-                  -0.627519,
-                  47.483047
-                ],
-                [
-                  -0.628098,
-                  47.483098
-                ],
-                [
-                  -0.628484,
-                  47.483141
-                ],
-                [
-                  -0.629364,
-                  47.483257
-                ],
-                [
-                  -0.630094,
-                  47.483714
-                ],
-                [
-                  -0.63018,
-                  47.484105
-                ]
-              ]
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "name": "La Cave de la Trinquette",
-            "description": "Pour les mines",
-            "_umap_options": {
-              "iconUrl": "/uploads/pictogram/bar-24_1.png"
-            }
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -0.547204,
-              47.474852
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "_umap_options": {
-              "iconClass": "Drop",
-              "iconUrl": "/uploads/pictogram/cafe-24_1.png",
-              "labelInteractive": true,
-              "showLabel": null
-            },
-            "name": "La Coquetterie"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -0.55955,
-              47.473901
             ]
           }
         },
@@ -508,22 +272,6 @@
         {
           "type": "Feature",
           "properties": {
-            "name": "Le Welsh",
-            "_umap_options": {
-              "iconUrl": "/uploads/pictogram/bar-24_1.png"
-            }
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -0.548048,
-              47.474111
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
             "name": "Maison d'Adam"
           },
           "geometry": {
@@ -537,18 +285,13 @@
         {
           "type": "Feature",
           "properties": {
-            "_umap_options": {
-              "iconClass": "Drop",
-              "iconUrl": "/uploads/pictogram/college-24_1.png"
-            },
-            "name": "Polytech Angers",
-            "description": "Polytech Angers campus Belle-Beille"
+            "name": "Terra Botanica"
           },
           "geometry": {
             "type": "Point",
             "coordinates": [
-              -0.592189,
-              47.480582
+              -0.569487,
+              47.501968
             ]
           }
         }
@@ -556,8 +299,9 @@
       "_umap_options": {
         "displayOnLoad": true,
         "browsable": true,
-        "name": "Calque 1",
-        "id": 2029231
+        "name": "Important places",
+        "id": 2029231,
+        "remoteData": {}
       }
     },
     {
@@ -603,13 +347,36 @@
         {
           "type": "Feature",
           "properties": {
-            "name": "l'Okapi"
+            "_umap_options": {
+              "iconClass": "Drop",
+              "iconUrl": "/uploads/pictogram/college-24_1.png"
+            },
+            "name": "Polytech Angers",
+            "description": "Campus Belle-Beille :\n\nTiming: 7:45 am - 07:30 pm\nAddress: 62 Av. de Notre Dame du Lac, 49000 Angers\nContact: +33244687500\n"
           },
           "geometry": {
             "type": "Point",
             "coordinates": [
-              -0.552573,
-              47.471566
+              -0.592189,
+              47.480582
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "iconClass": "Drop",
+              "iconUrl": "/uploads/pictogram/college-24_1.png"
+            },
+            "name": "Polytech Angers",
+            "description": "Campus Santé :\n\nTiming: ??:?? am - ??:?? pm\nAddress: 16 Bd Daviers, 49100 Angers, \nContact: +33244687500\n"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.559804,
+              47.479628
             ]
           }
         }
@@ -618,8 +385,10 @@
         "displayOnLoad": true,
         "browsable": true,
         "remoteData": {},
-        "name": "calque 2",
-        "id": 2029265
+        "id": 2029265,
+        "name": "Schools and Universities",
+        "iconClass": "Drop",
+        "iconUrl": "/uploads/pictogram/college-24_1.png"
       }
     },
     {
@@ -804,7 +573,9 @@
         "browsable": true,
         "remoteData": {},
         "name": "Distributeur de billet",
-        "id": 2029277
+        "id": 2029277,
+        "color": "Gold",
+        "iconUrl": "/uploads/pictogram/bank-24.png"
       }
     },
     {
@@ -861,6 +632,135 @@
               47.472016
             ]
           }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "L'Atoll"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -0.63019,
+                  47.484149
+                ],
+                [
+                  -0.630126,
+                  47.484613
+                ],
+                [
+                  -0.62974,
+                  47.485193
+                ],
+                [
+                  -0.629042,
+                  47.485816
+                ],
+                [
+                  -0.62856,
+                  47.486077
+                ],
+                [
+                  -0.62798,
+                  47.486317
+                ],
+                [
+                  -0.627444,
+                  47.486469
+                ],
+                [
+                  -0.626982,
+                  47.486549
+                ],
+                [
+                  -0.626264,
+                  47.486592
+                ],
+                [
+                  -0.625749,
+                  47.486578
+                ],
+                [
+                  -0.625277,
+                  47.48652
+                ],
+                [
+                  -0.624354,
+                  47.486309
+                ],
+                [
+                  -0.624011,
+                  47.486048
+                ],
+                [
+                  -0.623538,
+                  47.485621
+                ],
+                [
+                  -0.623388,
+                  47.485367
+                ],
+                [
+                  -0.623496,
+                  47.484461
+                ],
+                [
+                  -0.623742,
+                  47.484011
+                ],
+                [
+                  -0.624214,
+                  47.483547
+                ],
+                [
+                  -0.624536,
+                  47.483322
+                ],
+                [
+                  -0.625105,
+                  47.48317
+                ],
+                [
+                  -0.625716,
+                  47.48309
+                ],
+                [
+                  -0.626339,
+                  47.483032
+                ],
+                [
+                  -0.626993,
+                  47.483025
+                ],
+                [
+                  -0.627862,
+                  47.483054
+                ],
+                [
+                  -0.62857,
+                  47.483119
+                ],
+                [
+                  -0.629472,
+                  47.483301
+                ],
+                [
+                  -0.63018,
+                  47.483997
+                ],
+                [
+                  -0.630182,
+                  47.484076
+                ],
+                [
+                  -0.63019,
+                  47.484149
+                ]
+              ]
+            ]
+          }
         }
       ],
       "_umap_options": {
@@ -872,6 +772,114 @@
         "id": 2029320,
         "color": "PowderBlue",
         "fill": true
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "American Fury",
+            "_umap_options": {
+              "iconUrl": "/uploads/pictogram/bar-24_1.png"
+            }
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.547912,
+              47.475179
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "l'Okapi"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.552573,
+              47.471566
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "La Cave de la Trinquette",
+            "description": "Pour les mines",
+            "_umap_options": {
+              "iconUrl": "/uploads/pictogram/bar-24_1.png"
+            }
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.547204,
+              47.474852
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Le Welsh",
+            "_umap_options": {
+              "iconUrl": "/uploads/pictogram/bar-24_1.png"
+            }
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.548048,
+              47.474111
+            ]
+          }
+        }
+      ],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {},
+        "name": "Bars",
+        "iconClass": "Drop",
+        "iconUrl": "/uploads/pictogram/bar-24_1.png",
+        "id": 2029393
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "color": "Crimson",
+              "iconClass": "Default",
+              "iconUrl": "/uploads/pictogram/rail-24-white.png"
+            },
+            "name": "Gare Angers Saint-Laud"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.556821,
+              47.464551
+            ]
+          }
+        }
+      ],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {},
+        "name": "Gare",
+        "color": "Crimson",
+        "iconUrl": "/uploads/pictogram/rail-24-white.png",
+        "id": 2029408
       }
     }
   ]
