@@ -1,7 +1,9 @@
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+	<link rel="stylesheet" href="index.css" />
 	<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 	<style>
@@ -20,7 +22,7 @@
             maxZoom: 19
         });
         map.addLayer(osmLayer);
-		var poi= $.getJSON("test.geojson",function(dataPoi){
+		var poi= $.getJSON("https://files.u-angers.fr/data/f-115aa75069a82ca0.geojson",function(dataPoi){
 			var iconePoi = L.icon({
 				iconUrl: 'point.png',
 				iconSize: [32, 41],
