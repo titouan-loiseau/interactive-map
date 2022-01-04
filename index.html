@@ -22,12 +22,17 @@
             maxZoom: 19
         });
         map.addLayer(osmLayer);
-		var poi= $.getJSON("https://files.u-angers.fr/data/f-115aa75069a82ca0.geojson",function(dataPoi){
+		var poi= $.getJSON("https://files.u-angers.fr/data/f-6a01ddef476cd5c0.geojson",function(dataPoi){
 			var iconePoi = L.icon({
 				iconUrl: 'point.png',
 				iconSize: [32, 41],
 				iconAnchor: [16, 41]
 			});	
+			var iconeResto = L.icon({
+				iconUrl: 'Resto-icon.png',
+				iconSize: [32, 41],
+				iconAnchor: [16, 41]
+			});
 			L.geoJson(dataPoi,{
 				pointToLayer: function(feature,latlng){
 					var marker = L.marker(latlng,{icon: iconePoi});					
