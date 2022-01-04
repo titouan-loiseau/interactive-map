@@ -24,28 +24,61 @@
         });
         map.addLayer(osmLayer);
 
-		var iconePoi = L.icon({
-			iconUrl: 'point.png',
-			iconSize: [32, 41],
-			iconAnchor: [16, 41]
-		});
+		// 0: important places, 1: schools and universities, 2: ATM, 3: commerces, 4: Bars, 5: Gare, 6: Sports, 7: Park
 
-		var iconeResto = L.icon({
-			iconUrl: 'Resto-icon.png',
-			iconSize: [32, 41],
-			iconAnchor: [16, 41]
-		});
+		let iconArray = [
+			L.icon({
+				iconUrl: 'icons/important.png',
+				iconSize: [32, 41],
+				iconAnchor: [16, 41]
+			}),
+			L.icon({
+				iconUrl: 'icons/univ.png',
+				iconSize: [32, 41],
+				iconAnchor: [16, 41]
+			}),
+			L.icon({
+				iconUrl: 'icons/atm.png',
+				iconSize: [32, 41],
+				iconAnchor: [16, 41]
+			}),
+			L.icon({
+				iconUrl: 'icons/shops.png',
+				iconSize: [32, 41],
+				iconAnchor: [16, 41]
+			}),
+			L.icon({
+				iconUrl: 'icons/univ.png',
+				iconSize: [32, 41],
+				iconAnchor: [16, 41]
+			}),
+			L.icon({
+				iconUrl: 'icons/univ.png',
+				iconSize: [32, 41],
+				iconAnchor: [16, 41]
+			}),
+			L.icon({
+				iconUrl: 'icons/univ.png',
+				iconSize: [32, 41],
+				iconAnchor: [16, 41]
+			}),
+			L.icon({
+				iconUrl: 'icons/univ.png',
+				iconSize: [32, 41],
+				iconAnchor: [16, 41]
+			})
+		]
 		
 		let LayerID = 0;
 
 		let importUmap = $.getJSON("test.umap", function(readData) {
 			readData.layers.forEach(dataPoi => {
 				let useIcon;
-				if(LayerID == 0) {
-					useIcon = iconePoi;
+				if(iconArray[LayerID] != undefined) {
+					useIcon = iconArray[LayerID];
 				}
 				else {
-					useIcon = iconeResto;
+					useIcon = iconArray[0];
 				}
 				L.geoJson(dataPoi,{
 					pointToLayer: function(feature,latlng){
@@ -61,7 +94,7 @@
 				LayerID++;
 			});
 		});
-		
+
 		map.locate({setView: true, maxZoom: 16});
 		function onLocationFound(e) {
     var radius = e.accuracy;

@@ -35,7 +35,10 @@
       "features": [
         {
           "type": "Feature",
-          "properties": {},
+          "properties": {
+            "description": "This impressive castle in Angers is more than 800 years old and was originally a fort. This castle is 100 yards long and contains a lot of art to contemplate, for example it contains on its walls the Apocalypse Tapestry.\n\nAddress: 2 Prom. du Bout du Monde, 49100 Angers\nContact: +33241864877\nTimings: 10am - 5:30pm\n",
+            "name": "Château d’Angers"
+          },
           "geometry": {
             "type": "Polygon",
             "coordinates": [
@@ -636,6 +639,87 @@
         {
           "type": "Feature",
           "properties": {
+            "name": "Galerie Espace Anjou"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -0.524565,
+                  47.467129
+                ],
+                [
+                  -0.525295,
+                  47.467535
+                ],
+                [
+                  -0.525209,
+                  47.467913
+                ],
+                [
+                  -0.524865,
+                  47.468195
+                ],
+                [
+                  -0.524576,
+                  47.468246
+                ],
+                [
+                  -0.523664,
+                  47.467876
+                ],
+                [
+                  -0.523535,
+                  47.467862
+                ],
+                [
+                  -0.523031,
+                  47.468435
+                ],
+                [
+                  -0.522891,
+                  47.468471
+                ],
+                [
+                  -0.521786,
+                  47.467971
+                ],
+                [
+                  -0.52067,
+                  47.46726
+                ],
+                [
+                  -0.521153,
+                  47.466564
+                ],
+                [
+                  -0.521711,
+                  47.466484
+                ],
+                [
+                  -0.523106,
+                  47.466658
+                ],
+                [
+                  -0.523632,
+                  47.466767
+                ],
+                [
+                  -0.523964,
+                  47.46689
+                ],
+                [
+                  -0.524565,
+                  47.467129
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
             "name": "L'Atoll"
           },
           "geometry": {
@@ -880,6 +964,153 @@
         "color": "Crimson",
         "iconUrl": "/uploads/pictogram/rail-24-white.png",
         "id": 2029408
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Stade de Frémur"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.557728,
+              47.456532
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Stade de la Baumette"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.569229,
+              47.46335
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Stade Mikulak"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.583777,
+              47.469356
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "SUAPS"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.598229,
+              47.480241
+            ]
+          }
+        }
+      ],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {},
+        "name": "Sport",
+        "color": "Blue",
+        "iconUrl": "/uploads/pictogram/soccer-24_1.png",
+        "id": 2029420
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {},
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -0.546141,
+                  47.474983
+                ],
+                [
+                  -0.545068,
+                  47.4761
+                ],
+                [
+                  -0.543147,
+                  47.475361
+                ],
+                [
+                  -0.542632,
+                  47.474918
+                ],
+                [
+                  -0.542911,
+                  47.474672
+                ],
+                [
+                  -0.542225,
+                  47.474244
+                ],
+                [
+                  -0.542439,
+                  47.47399
+                ],
+                [
+                  -0.543158,
+                  47.474266
+                ],
+                [
+                  -0.543426,
+                  47.47399
+                ],
+                [
+                  -0.544252,
+                  47.474258
+                ],
+                [
+                  -0.544628,
+                  47.473859
+                ],
+                [
+                  -0.545261,
+                  47.474055
+                ],
+                [
+                  -0.544993,
+                  47.474476
+                ],
+                [
+                  -0.546141,
+                  47.474983
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {},
+        "name": "park",
+        "color": "Green",
+        "id": 2029419,
+        "iconUrl": "/uploads/pictogram/park-24_1.png"
       }
     }
   ]
