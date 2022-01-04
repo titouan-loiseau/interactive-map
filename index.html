@@ -28,6 +28,11 @@
 				iconSize: [32, 41],
 				iconAnchor: [16, 41]
 			});	
+			var iconeResto = L.icon({
+				iconUrl: 'Resto-icon.png',
+				iconSize: [32, 41],
+				iconAnchor: [16, 41]
+			});
 			L.geoJson(dataPoi,{
 				pointToLayer: function(feature,latlng){
 					var marker = L.marker(latlng,{icon: iconePoi});					
