@@ -47,6 +47,8 @@ body {
 /* Float the link section to the right */
 .header-right {
     float: right;
+    top: 50%;
+    transform: translateY(+40%);
 }
 
 .header-center {
