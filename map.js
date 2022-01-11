@@ -58,15 +58,12 @@ let iconArray = [
 
 let filters = [true, true, true, true, true, true, true, true, true];
 
-let markers = [];
-
-
 function update() {
     let LayerID = 0;
 
     // Remove existing markers
     removeMarkers();
-    
+
     // Read data
     $.getJSON("test.umap", function(readData) {
 
@@ -89,7 +86,6 @@ function update() {
                 L.geoJson(dataPoi,{
                     pointToLayer: function(feature,latlng){
                         var marker = L.marker(latlng,{icon: useIcon});	
-                        markers.push(marker);				
                         return marker;
                     },
                     onEachFeature: function(feature, layer) {
@@ -105,10 +101,15 @@ function update() {
 }
 
 function removeMarkers() {
-    markers.forEach(marker => {
-        map.removeLayer(marker);
-    })
-    markers = [];
+    let first = true;
+    map.eachLayer((layer) => {
+        if(first) {
+            first = false;
+        }
+        else {
+            layer.remove();
+        }
+      });
 }
 
 update();

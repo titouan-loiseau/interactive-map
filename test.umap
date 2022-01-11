@@ -134,7 +134,7 @@
               "labelInteractive": true
             },
             "name": "Polytech Angers",
-            "description": "Campus Belle-Beille :\n\nTiming: 7:45 am - 07:30 pm\nAddress: 62 Av. de Notre Dame du Lac, 49000 Angers\nContact: +33244687500\n"
+            "description": "Campus Belle-Beille :\n\nTiming: 7:45 am - 07:30 pm\nAddress: 62 Av. de Notre Dame du Lac, 49000 Angers\nContact: +33244687500\n <img src='https://www.usinenouvelle.com/mediatheque/4/8/7/000921784_image_600x315.png'>"
           },
           "geometry": {
             "type": "Point",
