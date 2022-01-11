@@ -4,6 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
 	<link rel="stylesheet" href="index.css" />
+	<link rel="stylesheet" href="filter.css" />
 	<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 	<style>
@@ -22,8 +23,12 @@
 		  	<a href="#about">About</a>
 		</div>
 	</div>
+	<div class="filter-cont">
+		<div class="filter-el" f-sel="1" onclick="filterclick(1, this)">
+			<div class="filter-img"></div>
+		</div>
+	</div>
 	<div id="mapid"></div>
 	<script src="map.js"></script>
-
 </body>
 </html>

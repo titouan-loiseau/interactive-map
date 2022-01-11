@@ -114,6 +114,18 @@ function removeMarkers() {
 
 update();
 
+function filterclick(id, el) {
+    if(el.attributes["f-sel"].value == "1") {
+        el.attributes["f-sel"].value = "0";
+        filters[id] = false;
+    }
+    else {
+        el.attributes["f-sel"].value = "1";
+        filters[id] = true;
+    }
+    update();
+}
+
 map.locate({setView: true, maxZoom: 16});
 function onLocationFound(e) {
     var radius = e.accuracy;
