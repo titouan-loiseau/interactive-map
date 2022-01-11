@@ -54,47 +54,78 @@ let iconArray = [
         iconSize: [32, 41],
         iconAnchor: [16, 41]
     })
-]
+];
 
-let LayerID = 0;
+let filters = [true, true, true, true, true, true, true, true, true];
 
-let importUmap = $.getJSON("test.umap", function(readData) {
-    readData.layers.forEach(dataPoi => {
-        let useIcon;
-        if(iconArray[LayerID] != undefined) {
-            useIcon = iconArray[LayerID];
-        }
-        else {
-            useIcon = iconArray[0];
-        }
-        L.geoJson(dataPoi,{
-            pointToLayer: function(feature,latlng){
-                var marker = L.marker(latlng,{icon: useIcon});					
-                return marker;
-            },
-            onEachFeature: function(feature, layer) {
-                layer.bindPopup('<h1>'+feature.properties.name+'</h1><hr><br>'
-                            + feature.properties.description 
-                            );
+let markers = [];
+
+
+function update() {
+    let LayerID = 0;
+
+    // Remove existing markers
+    removeMarkers();
+    
+    // Read data
+    $.getJSON("test.umap", function(readData) {
+
+        // Loop through every layer
+        readData.layers.forEach(dataPoi => {
+
+            // Check that the layer is not filtered
+            if(filters[LayerID]) {
+
+                // Use the proper icon
+                let useIcon;
+                if(iconArray[LayerID] != undefined) {
+                    useIcon = iconArray[LayerID];
+                }
+                else {
+                    useIcon = iconArray[0];
+                }
+
+                // Add points
+                L.geoJson(dataPoi,{
+                    pointToLayer: function(feature,latlng){
+                        var marker = L.marker(latlng,{icon: useIcon});	
+                        markers.push(marker);				
+                        return marker;
+                    },
+                    onEachFeature: function(feature, layer) {
+                        layer.bindPopup('<h1>'+feature.properties.name+'</h1><hr><br>'
+                                    + feature.properties.description 
+                                    );
+                    }
+                }).addTo(map);
             }
-        }).addTo(map);
-        LayerID++;
+            LayerID++;
+        });
     });
-});
+}
+
+function removeMarkers() {
+    markers.forEach(marker => {
+        map.removeLayer(marker);
+    })
+    markers = [];
+}
+
+update();
 
 map.locate({setView: true, maxZoom: 16});
 function onLocationFound(e) {
-var radius = e.accuracy;
+    var radius = e.accuracy;
 
-L.marker(e.latlng).addTo(map)
-.bindPopup("You are within " + radius + " meters from this point").openPopup();
+    L.marker(e.latlng).addTo(map)
+    .bindPopup("You are within " + radius + " meters from this point").openPopup();
 
-L.circle(e.latlng, radius).addTo(map);
+    L.circle(e.latlng, radius).addTo(map);
 }
 
 map.on('locationfound', onLocationFound);
-function onLocationError(e) {
-alert(e.message);
+    function onLocationError(e) {
+    alert(e.message);
 }
 
 map.on('locationerror', onLocationError);
