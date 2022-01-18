@@ -92,6 +92,8 @@ body {
     display: flex;
     width: 100%;
     overflow:auto;
+    height: 100%;
+    padding-top: 10px;
 }
 
 .bloc{
@@ -144,13 +146,13 @@ body {
 }
   
 .navbar-bottom {
-  height: 170px;
+  height: 150px;
   background-color: rgb(255 255 255 / 55%);
   width: 100%;
   display: flex;
   flex-direction: column;
   position: fixed;
-  bottom: -105px;
+  bottom: -120px;
   transition: all .5s;
   z-index: 10;
 }
