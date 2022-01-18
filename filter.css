@@ -3,11 +3,9 @@
 }
 
 .filter-cont {
-    position: absolute;
-    top: 100vh;
-    transform: translateY(-100%);
+    position: relative;
+    top: 0vh;
     left: 0;
-    height: 500px;
     width: var(--filter-cont-w);
     background: white;
     z-index: 999;
@@ -16,6 +14,20 @@
     overflow-y: hidden;
     overflow-x: hidden;
 }
+
+.map-cont {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mapid-cont {
+    width: calc(100vw - var(--filter-cont-w));
+    height: 100%;
+}
+
 
 .filter-el {
     width: var(--filter-cont-w);
@@ -27,10 +39,15 @@
 }
 
 .filter-el[f-sel="1"] {
-    background: #aaaaaa;
+    background: #d8d8d8;
 }
 
 .filter-img {
-    width: 80%;
-    height: 80%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.filter-img img {
+    height: 100%;
 }
