@@ -49,7 +49,7 @@
 
 @media screen and (max-width: 500px) {
     .filter-cont {
-        top: 00vh;
+        top: 130px;
         transform: translateY(0%);
     }
 }

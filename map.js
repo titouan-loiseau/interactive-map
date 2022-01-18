@@ -160,7 +160,8 @@ function onLocationFound(e) {
 }
 
 map.on('locationfound', onLocationFound);
-    function onLocationError(e) {
+function onLocationError(e) {
+    
 }
 
 map.on('locationerror', onLocationError);
