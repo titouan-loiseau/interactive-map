@@ -36,9 +36,12 @@ function addPoint(data){
 
 }
 
+function clearList(){
+    list.innerHTML = "";
+}
 
 function OpenHideNav() {
     console.log("Open");
     var navbar = document.getElementById("open-nav");
     navbar.classList.toggle("opened");
-  }
+}
