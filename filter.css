@@ -53,11 +53,16 @@
     background: white;
 }
 
+.filter-el[f-sel="1"] .filter-desc {
+    color: white;
+}
+
 .filter-desc {
     position: absolute;
     line-height: 100%;
     left: var(--filter-cont-w);
     width: calc(var(--filter-cont-w-open) - var(--filter-cont-w));
+    color: #00b9f2;
 }
 
 @media screen and (max-width: 500px) {
