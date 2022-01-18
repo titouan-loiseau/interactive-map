@@ -11,6 +11,7 @@
 		#mapid{
 		height : 100%;
 		width : 100%;
+		z-index: 0;
 		}
 	</style>
 </head>
@@ -76,8 +77,14 @@
 		</div>
 		<div class="mapid-cont">
 			<div id="mapid"></div>
+			<nav id="open-nav" class="navbar-bottom">
+				<div onclick="OpenHideNav()"  class="open-nav">Afficher liste</div>
+				<div id="list">
+				</div>
+			  </nav>
 		</div>
 	</div>
 	<script src="map.js"></script>
+	<script src="list.js"></script>
 </body>
 </html>
