@@ -1,6 +1,6 @@
 {
   "type": "umap",
-  "uri": "https://umap.openstreetmap.fr/fr/map/angers_699285#16/47.4708/-0.5579",
+  "uri": "https://umap.openstreetmap.fr/fr/map/angers_699285#14/47.4703/-0.5625",
   "properties": {
     "easing": true,
     "embedControl": true,
@@ -36,159 +36,70 @@
         {
           "type": "Feature",
           "properties": {
-            "name": "Proposed itinerary "
+            "description": "Address: 2 Prom. du Bout du Monde, 49100 Angers\nContact: +33241864877\nOpening hours: 10am - 5:30pm\naverage price: 9.50€\n\nThe Loire region is famous for its castles and Angers has a great one. It’s a true fortress of a castle great for families and small children. You could spend hours here, it is very well maintained and has some great views of the city while taking a stroll through the gardens and the Chappel. But the greatest treasure is inside, a superb and splendid tapestry of the late 14th century; theme, the Apocalypse. You could decide to visit with a guided tour, you will learn so much and understand much better the details, worth to appreciate fully.\n\n<img src=https://tse4.mm.bing.net/th?id=OIP.K5l-GBVtED9u1tJ9b3LUyAHaE8&pid=Api>",
+            "name": "Angers Castle"
           },
           "geometry": {
-            "type": "LineString",
+            "type": "Polygon",
             "coordinates": [
               [
-                -0.560501,
-                47.474563
-              ],
-              [
-                -0.560297,
-                47.474425
-              ],
-              [
-                -0.564138,
-                47.471836
-              ],
-              [
-                -0.565812,
-                47.472605
-              ],
-              [
-                -0.566198,
-                47.472286
-              ],
-              [
-                -0.566745,
-                47.471916
-              ],
-              [
-                -0.566176,
-                47.471575
-              ],
-              [
-                -0.562454,
-                47.470117
-              ],
-              [
-                -0.561702,
-                47.469892
-              ],
-              [
-                -0.560469,
-                47.469392
-              ],
-              [
-                -0.560104,
-                47.46929
-              ],
-              [
-                -0.558634,
-                47.468819
-              ],
-              [
-                -0.557904,
-                47.469762
-              ],
-              [
-                -0.557368,
-                47.469646
-              ],
-              [
-                -0.55666,
-                47.469725
-              ],
-              [
-                -0.555566,
-                47.470516
-              ],
-              [
-                -0.554825,
-                47.470146
-              ],
-              [
-                -0.554536,
-                47.470139
-              ],
-              [
-                -0.554214,
-                47.470407
-              ],
-              [
-                -0.553881,
-                47.470987
-              ],
-              [
-                -0.553119,
-                47.470777
-              ],
-              [
-                -0.552819,
-                47.471045
-              ],
-              [
-                -0.552465,
-                47.471234
-              ],
-              [
-                -0.55231,
-                47.471118
-              ],
-              [
-                -0.552197,
-                47.471038
-              ],
-              [
-                -0.552122,
-                47.470995
-              ],
-              [
-                -0.552025,
-                47.47094
-              ],
-              [
-                -0.551961,
-                47.47089
-              ],
-              [
-                -0.551881,
-                47.470861
-              ],
-              [
-                -0.551789,
-                47.470824
-              ],
-              [
-                -0.551189,
-                47.471118
-              ],
-              [
-                -0.551891,
-                47.471655
-              ],
-              [
-                -0.551574,
-                47.471898
-              ],
-              [
-                -0.552427,
-                47.472514
-              ],
-              [
-                -0.552781,
-                47.472293
-              ],
-              [
-                -0.552867,
-                47.472373
-              ],
-              [
-                -0.552929,
-                47.472421
+                [
+                  -0.561687,
+                  47.470056
+                ],
+                [
+                  -0.559713,
+                  47.470886
+                ],
+                [
+                  -0.558275,
+                  47.469856
+                ],
+                [
+                  -0.558833,
+                  47.46924
+                ],
+                [
+                  -0.560313,
+                  47.46941
+                ],
+                [
+                  -0.560946,
+                  47.469704
+                ],
+                [
+                  -0.561687,
+                  47.470056
+                ]
               ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "description": "Address: 2 Prom. du Bout du Monde, 49100 Angers\nContact: +33241864877\nOpening hours: 10am - 5:30pm\naverage price: 9.50€\n\nThe Loire region is famous for its castles and Angers has a great one. It’s a true fortress of a castle great for families and small children. You could spend hours here, it is very well maintained and has some great views of the city while taking a stroll through the gardens and the Chappel. But the greatest treasure is inside, a superb and splendid tapestry of the late 14th century; theme, the Apocalypse. You could decide to visit with a guided tour, you will learn so much and understand much better the details, worth to appreciate fully.\n\n<img src=https://tse4.mm.bing.net/th?id=OIP.K5l-GBVtED9u1tJ9b3LUyAHaE8&pid=Api>",
+            "name": "Angers Castle"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.559798,
+              47.469987
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "description": "Angers Cathedral is a Roman Catholic church dedicated to Saint Maurice in Angers, France. \nBuilt between the 11th and 16th centuries, it is known for its mixture of romanesque and Gothic architecture, its ornate Baroque altar and sculpture. It also has an extensive collection of stained glass windows, including the transept's window of Saint Julian, considered to be a masterpiece of French 13th-century glasswork. as a national monument of France.\n\n<img src=https://tse4.mm.bing.net/th?id=OIP.kTvV7AwwdvuX1P5lzazaxQHaHa&pid=Api>",
+            "name": "Cathédrale Saint-Maurice d'Angers"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.554874,
+              47.470531
             ]
           }
         },
@@ -2372,6 +2283,177 @@
         "id": 2038227,
         "weight": "10",
         "fill": true
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Proposed itinerary "
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -0.560501,
+                47.474563
+              ],
+              [
+                -0.560297,
+                47.474425
+              ],
+              [
+                -0.564138,
+                47.471836
+              ],
+              [
+                -0.565812,
+                47.472605
+              ],
+              [
+                -0.566198,
+                47.472286
+              ],
+              [
+                -0.566745,
+                47.471916
+              ],
+              [
+                -0.566176,
+                47.471575
+              ],
+              [
+                -0.562454,
+                47.470117
+              ],
+              [
+                -0.561702,
+                47.469892
+              ],
+              [
+                -0.560469,
+                47.469392
+              ],
+              [
+                -0.560104,
+                47.46929
+              ],
+              [
+                -0.558634,
+                47.468819
+              ],
+              [
+                -0.557904,
+                47.469762
+              ],
+              [
+                -0.557368,
+                47.469646
+              ],
+              [
+                -0.55666,
+                47.469725
+              ],
+              [
+                -0.555566,
+                47.470516
+              ],
+              [
+                -0.554825,
+                47.470146
+              ],
+              [
+                -0.554536,
+                47.470139
+              ],
+              [
+                -0.554214,
+                47.470407
+              ],
+              [
+                -0.553881,
+                47.470987
+              ],
+              [
+                -0.553119,
+                47.470777
+              ],
+              [
+                -0.552819,
+                47.471045
+              ],
+              [
+                -0.552465,
+                47.471234
+              ],
+              [
+                -0.55231,
+                47.471118
+              ],
+              [
+                -0.552197,
+                47.471038
+              ],
+              [
+                -0.552122,
+                47.470995
+              ],
+              [
+                -0.552025,
+                47.47094
+              ],
+              [
+                -0.551961,
+                47.47089
+              ],
+              [
+                -0.551881,
+                47.470861
+              ],
+              [
+                -0.551789,
+                47.470824
+              ],
+              [
+                -0.551189,
+                47.471118
+              ],
+              [
+                -0.551891,
+                47.471655
+              ],
+              [
+                -0.551574,
+                47.471898
+              ],
+              [
+                -0.552427,
+                47.472514
+              ],
+              [
+                -0.552781,
+                47.472293
+              ],
+              [
+                -0.552867,
+                47.472373
+              ],
+              [
+                -0.552929,
+                47.472421
+              ]
+            ]
+          }
+        }
+      ],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {},
+        "name": "Itinéraire",
+        "color": "Black"
       }
     }
   ]
