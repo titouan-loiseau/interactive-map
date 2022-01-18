@@ -72,6 +72,6 @@ body {
     }
 }
 
-.leaflet-popup-content-wrapper {
+.leaflet-popup-content img {
     max-width: 100%;
 }
