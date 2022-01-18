@@ -5,9 +5,13 @@ body {
 
 /** HEADER OF WEBSITE **/
 .header {
+    box-sizing: border-box;
+    position: fixed;
+    width: 100vw;
     overflow: hidden;
-    background-color: #fff;
+    background-color: rgb(255 255 255 / 55%);
     padding: 20px 10px;
+    z-index: 401;
 }
   
 /* Style the header links */
