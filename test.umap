@@ -1,6 +1,6 @@
 {
   "type": "umap",
-  "uri": "https://umap.openstreetmap.fr/fr/map/carte-sans-nom_699285#14/47.4840/-0.5401",
+  "uri": "https://umap.openstreetmap.fr/fr/map/angers_699285#14/47.4685/-0.5411",
   "properties": {
     "easing": true,
     "embedControl": true,
@@ -14,19 +14,19 @@
     "tilelayer": {},
     "licence": "",
     "description": "",
-    "name": "Carte sans nom",
+    "name": "Angers",
     "displayPopupFooter": false,
     "miniMap": false,
     "moreControl": true,
     "scaleControl": true,
     "scrollWheelZoom": true,
-    "zoom": 20
+    "zoom": 14
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -0.5596764385700227,
-      47.473927433080185
+      -0.5625343322753907,
+      47.470313145450646
     ]
   },
   "layers": [
@@ -36,42 +36,14 @@
         {
           "type": "Feature",
           "properties": {
-            "description": "This impressive castle in Angers is more than 800 years old and was originally a fort. This castle is 100 yards long and contains a lot of art to contemplate, for example it contains on its walls the Apocalypse Tapestry.\n\nAddress: 2 Prom. du Bout du Monde, 49100 Angers\nContact: +33241864877\nTimings: 10am - 5:30pm\n",
-            "name": "Château d’Angers"
+            "name": "Town Hall",
+            "description": "The Town Hall of Angers\n\n<img src=https://tse4.mm.bing.net/th?id=OIP.SEZMUSS7wxszpBY0nGaLqwHaE7&pid=Api>"
           },
           "geometry": {
-            "type": "Polygon",
+            "type": "Point",
             "coordinates": [
-              [
-                [
-                  -0.560206,
-                  47.469414
-                ],
-                [
-                  -0.561644,
-                  47.47003
-                ],
-                [
-                  -0.559509,
-                  47.47098
-                ],
-                [
-                  -0.558039,
-                  47.469856
-                ],
-                [
-                  -0.558726,
-                  47.46887
-                ],
-                [
-                  -0.559509,
-                  47.469124
-                ],
-                [
-                  -0.560206,
-                  47.469414
-                ]
-              ]
+              -0.548091,
+              47.471278
             ]
           }
         }
@@ -87,6 +59,19 @@
     {
       "type": "FeatureCollection",
       "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Campus Belle-Beille"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.602059,
+              47.478943
+            ]
+          }
+        },
         {
           "type": "Feature",
           "properties": {
@@ -134,7 +119,7 @@
               "labelInteractive": true
             },
             "name": "Polytech Angers",
-            "description": "Campus Belle-Beille :\n\nTiming: 7:45 am - 07:30 pm\nAddress: 62 Av. de Notre Dame du Lac, 49000 Angers\nContact: +33244687500\n <img src='https://www.usinenouvelle.com/mediatheque/4/8/7/000921784_image_600x315.png'>"
+            "description": "Campus Belle-Beille :\n\nTiming: 7:45 am - 07:30 pm\nAddress: 62 Av. de Notre Dame du Lac, 49000 Angers\nContact: +33244687500\n\n<img src=https://tse2.mm.bing.net/th?id=OIP.23M9ObJq4KrbNR4zvOJEaQHaEK&pid=Api>"
           },
           "geometry": {
             "type": "Point",
@@ -161,44 +146,6 @@
               47.479628
             ]
           }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "name": "UCO",
-            "description": "campus de bourgeois"
-          },
-          "geometry": {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  -0.548383,
-                  47.464301
-                ],
-                [
-                  -0.546666,
-                  47.461327
-                ],
-                [
-                  -0.545175,
-                  47.462146
-                ],
-                [
-                  -0.545089,
-                  47.46322
-                ],
-                [
-                  -0.548104,
-                  47.464446
-                ],
-                [
-                  -0.548383,
-                  47.464301
-                ]
-              ]
-            ]
-          }
         }
       ],
       "_umap_options": {
@@ -220,30 +167,14 @@
             "_umap_options": {
               "color": "Gold",
               "iconUrl": "/uploads/pictogram/bank-24.png"
-            }
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -0.55202,
-              47.471686
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "_umap_options": {
-              "color": "Gold",
-              "iconUrl": "/uploads/pictogram/bank-24.png"
             },
             "name": "CIC"
           },
           "geometry": {
             "type": "Point",
             "coordinates": [
-              -0.552349,
-              47.469891
+              -0.55235,
+              47.469873
             ]
           }
         },
@@ -259,8 +190,8 @@
           "geometry": {
             "type": "Point",
             "coordinates": [
-              -0.547259,
-              47.469804
+              -0.55202,
+              47.471686
             ]
           }
         },
@@ -289,7 +220,7 @@
               "iconUrl": "/uploads/pictogram/bank-24.png"
             },
             "name": "Dab Credit Agricole",
-            "description": "Distributeur de billets"
+            "description": ""
           },
           "geometry": {
             "type": "Point",
@@ -307,7 +238,7 @@
               "iconUrl": "/uploads/pictogram/bank-24.png"
             },
             "name": "Dab Credit Mutuel",
-            "description": "Distributeur de billets"
+            "description": ""
           },
           "geometry": {
             "type": "Point",
@@ -331,42 +262,6 @@
             "coordinates": [
               -0.5605,
               47.474127
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "_umap_options": {
-              "iconUrl": "/uploads/pictogram/bank-24.png",
-              "color": "Gold"
-            },
-            "name": "Point Nickel - LE MONTESQUIEU",
-            "description": "Distributeur de billet"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -0.580059,
-              47.473662
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "_umap_options": {
-              "color": "Gold",
-              "iconUrl": "/uploads/pictogram/bank-24.png"
-            },
-            "name": "Point Nickel - TABAC LE TABAGO",
-            "description": "Distributeur de billets"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -0.593849,
-              47.466569
             ]
           }
         },
@@ -404,6 +299,20 @@
         {
           "type": "Feature",
           "properties": {
+            "name": "Anjou Terre de Douceur ",
+            "description": "If you want local and quality products to share or to discover, you have the right address. It’s a small shop but very well stocked, a manager who has a smile, and a choice to leave with the only desire to taste what you have just bought.\n\n<img src=https://tse3.mm.bing.net/th?id=OIP.Mg716rHxpRtnX3F3d9aDfQHaFj&pid=Api>"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.554287,
+              47.469923
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
             "name": "Carrefour City"
           },
           "geometry": {
@@ -430,19 +339,6 @@
         {
           "type": "Feature",
           "properties": {
-            "name": "Carrefour Saint  Serge"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -0.541769,
-              47.489373
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
             "name": "Fnac"
           },
           "geometry": {
@@ -456,7 +352,8 @@
         {
           "type": "Feature",
           "properties": {
-            "name": "Galerie Espace Anjou"
+            "name": "Galerie Espace Anjou",
+            "description": "75 Av. Montaigne, 49000 Angers\n\nCommercial  center\n\n<img src=https://tse3.mm.bing.net/th?id=OIP.zqBlFH_rIrAVGWWfatNHJQHaFj&pid=Api>"
           },
           "geometry": {
             "type": "Polygon",
@@ -537,130 +434,240 @@
         {
           "type": "Feature",
           "properties": {
+            "description": "75 Av. Montaigne, 49000 Angers\n\nCommercial  center\n\n<img src=https://tse3.mm.bing.net/th?id=OIP.zqBlFH_rIrAVGWWfatNHJQHaFj&pid=Api>",
+            "name": "Galerie Espace Anjou"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.522966,
+              47.467325
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Galeries Lafayette",
+            "description": "6 Rue d'Alsace, 49100 Angers. \n\nGaleries Lafayette is the classic French department store in terms of fashion and home furniture. It has a wide range of brands going from affordable to luxurious. Even if you’re not planning on going shopping, you should take a stroll through the building as it’s a very architecturally impressive piece of art. \n\n<img src=https://images.squarespace-cdn.com/content/v1/5c9b3eafd74562d4deb03335/1582299848077-Z37LVJY4PTAD1CZVZYQP/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/GALERIE+LAFAYETTE+ANGERS+-+221118-29.jpg>"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.551392,
+              47.470745
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
             "name": "L'Atoll",
-            "description": "Ecoparc du Buisson, 49073 Beaucouzé\n\nIt is the largest shopping center in the West with 71,000 m² of retail space."
+            "description": "Ecoparc du Buisson, 49073 Beaucouzé\n\nIt is the largest shopping center in the West with 71,000 m² of retail space.\n\n<img src=https://tse3.mm.bing.net/th?id=OIP.xDo2glTTqrTchylwU9DAqwEyDM&pid=Api>"
           },
           "geometry": {
             "type": "Polygon",
             "coordinates": [
               [
                 [
-                  -0.63019,
-                  47.484149
+                  -0.631628,
+                  47.484374
                 ],
                 [
-                  -0.630126,
-                  47.484613
+                  -0.631435,
+                  47.484671
                 ],
                 [
-                  -0.62974,
-                  47.485193
+                  -0.631202,
+                  47.484825
                 ],
                 [
-                  -0.629042,
-                  47.485816
+                  -0.631113,
+                  47.484946
                 ],
                 [
-                  -0.62856,
-                  47.486077
+                  -0.631156,
+                  47.485079
                 ],
                 [
-                  -0.62798,
-                  47.486317
+                  -0.631191,
+                  47.485108
                 ],
                 [
-                  -0.627444,
-                  47.486469
+                  -0.631177,
+                  47.485188
                 ],
                 [
-                  -0.626982,
-                  47.486549
+                  -0.630652,
+                  47.485787
                 ],
                 [
-                  -0.626264,
-                  47.486592
+                  -0.630196,
+                  47.486183
                 ],
                 [
-                  -0.625749,
-                  47.486578
+                  -0.629713,
+                  47.486516
                 ],
                 [
-                  -0.625277,
-                  47.48652
+                  -0.629455,
+                  47.486683
                 ],
                 [
-                  -0.624354,
-                  47.486309
+                  -0.62916,
+                  47.486741
                 ],
                 [
-                  -0.624011,
-                  47.486048
+                  -0.628876,
+                  47.486723
+                ],
+                [
+                  -0.628527,
+                  47.487056
+                ],
+                [
+                  -0.627771,
+                  47.487256
+                ],
+                [
+                  -0.62695,
+                  47.487364
+                ],
+                [
+                  -0.626307,
+                  47.487393
+                ],
+                [
+                  -0.625223,
+                  47.487383
+                ],
+                [
+                  -0.624762,
+                  47.487335
+                ],
+                [
+                  -0.624606,
+                  47.487227
+                ],
+                [
+                  -0.624408,
+                  47.48718
+                ],
+                [
+                  -0.62429,
+                  47.48719
+                ],
+                [
+                  -0.624155,
+                  47.487248
+                ],
+                [
+                  -0.624043,
+                  47.487281
+                ],
+                [
+                  -0.623871,
+                  47.487252
                 ],
                 [
                   -0.623538,
-                  47.485621
+                  47.487187
                 ],
                 [
-                  -0.623388,
-                  47.485367
+                  -0.622659,
+                  47.486984
+                ],
+                [
+                  -0.62283,
+                  47.485468
+                ],
+                [
+                  -0.622798,
+                  47.484584
+                ],
+                [
+                  -0.622745,
+                  47.483895
+                ],
+                [
+                  -0.622627,
+                  47.483583
+                ],
+                [
+                  -0.622551,
+                  47.483351
+                ],
+                [
+                  -0.622648,
+                  47.482851
                 ],
                 [
                   -0.623496,
-                  47.484461
+                  47.482822
                 ],
                 [
-                  -0.623742,
-                  47.484011
+                  -0.624064,
+                  47.482779
                 ],
                 [
-                  -0.624214,
-                  47.483547
+                  -0.624547,
+                  47.482786
                 ],
                 [
-                  -0.624536,
-                  47.483322
+                  -0.625223,
+                  47.482786
                 ],
                 [
-                  -0.625105,
-                  47.48317
+                  -0.625845,
+                  47.482757
                 ],
                 [
-                  -0.625716,
-                  47.48309
+                  -0.626489,
+                  47.482771
                 ],
                 [
-                  -0.626339,
-                  47.483032
+                  -0.627176,
+                  47.482742
                 ],
                 [
-                  -0.626993,
-                  47.483025
+                  -0.62797,
+                  47.482815
                 ],
                 [
-                  -0.627862,
-                  47.483054
+                  -0.628699,
+                  47.482887
                 ],
                 [
-                  -0.62857,
-                  47.483119
+                  -0.631092,
+                  47.48304
                 ],
                 [
-                  -0.629472,
-                  47.483301
+                  -0.631628,
+                  47.483409
                 ],
                 [
-                  -0.63018,
-                  47.483997
+                  -0.631714,
+                  47.48391
                 ],
                 [
-                  -0.630182,
-                  47.484076
-                ],
-                [
-                  -0.63019,
-                  47.484149
+                  -0.631628,
+                  47.484374
                 ]
               ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "description": "Ecoparc du Buisson, 49073 Beaucouzé\n\nIt is the largest shopping center in the West with 71,000 m² of retail space.\n\n<img src=https://tse3.mm.bing.net/th?id=OIP.xDo2glTTqrTchylwU9DAqwEyDM&pid=Api>",
+            "name": "L'Atoll"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.626907,
+              47.484845
             ]
           }
         }
@@ -686,7 +693,7 @@
             "_umap_options": {
               "iconUrl": "/uploads/pictogram/bar-24_1.png"
             },
-            "description": "7 boulevard Carnot\nA nice bar where you can let off steam by throwing axes at a target. Could you beat the record of 5 axes in the target in a row?\n"
+            "description": "7 boulevard Carnot\nA nice bar where you can let off steam by throwing axes at a target. Could you beat the record of 5 axes in the target in a row?\n\n<img src=https://static.wixstatic.com/media/41145f_1141c3ce9e994f4c8eb0d4da3f23514d~mv2.jpg/v1/fill/w_460,h_259,al_c,q_80,usm_0.66_1.00_0.01/IMG_3779.jpg>"
           },
           "geometry": {
             "type": "Point",
@@ -699,8 +706,25 @@
         {
           "type": "Feature",
           "properties": {
+            "name": "Bistrot des Ducs",
+            "description": "<img src=https://tse3.mm.bing.net/th?id=OIP.k7GW-eO6B0bd4cY26vOO7gHaEk&pid=Api>"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.55299,
+              47.471754
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
             "name": "l'Okapi",
-            "description": "15 Rue des Deux Haies\nA great bar where you can find some good cocktails. You can also find many shots notably the ‘’Dans ta gueule’’ which is a burning shot."
+            "description": "15 Rue des Deux Haies\nA great bar where you can find some good cocktails. You can also find many shots notably the ‘’Dans ta gueule’’ which is a burning shot.\n\n<img src=http://www.angers-pratique.fr/wp-content/uploads/2013/03/Okapi-Angers.jpg>",
+            "_umap_options": {
+              "iconUrl": "/uploads/pictogram/bar-24_1.png"
+            }
           },
           "geometry": {
             "type": "Point",
@@ -713,17 +737,28 @@
         {
           "type": "Feature",
           "properties": {
-            "name": "La Cave de la Trinquette",
-            "description": "Pour les mines",
-            "_umap_options": {
-              "iconUrl": "/uploads/pictogram/bar-24_1.png"
-            }
+            "description": "31 Rue de la Roë, 49000 Angers\nA bakery where you can have a nice breakfast with a moderate price in a calm and relaxed atmosphere. You can also have a lovely diner on the terrace in front of a pedestrian street.\n\n<img src=https://s3-media1.fl.yelpcdn.com/bphoto/XI30VThCMZGJaFdrCSu2iQ/ls.jpg>",
+            "name": "La Cocagne "
           },
           "geometry": {
             "type": "Point",
             "coordinates": [
-              -0.547204,
-              47.474852
+              -0.552747,
+              47.472382
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "description": "40, Rue Baurepaire 49100 ANGERS\nThis place is a homely fast-food providing kebab & pizza. The service is simple and user-friendly.\n\n<img src=https://dandydenantes.fr/wp-content/uploads/2018/05/24-heures-angers-6.jpg>",
+            "name": "Le Quai’bab d’Aladin"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.56049,
+              47.474606
             ]
           }
         },
@@ -734,7 +769,7 @@
             "_umap_options": {
               "iconUrl": "/uploads/pictogram/bar-24_1.png"
             },
-            "description": "25 place louis imbach\nA bar which has the particularity to propose board games, you will be able to spend good moments here with your friends."
+            "description": "25 place louis imbach\nA bar which has the particularity to propose board games, you will be able to spend good moments here with your friends.\n\n<img src=https://media-cdn.tripadvisor.com/media/photo-s/0a/50/1f/e6/le-welsh.jpg>"
           },
           "geometry": {
             "type": "Point",
@@ -743,16 +778,58 @@
               47.474111
             ]
           }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "description": "16 Rue Bodinier, 49100 Angers\nA beautiful mix between a local librairie and a coffee shop, where you can enjoy a good book on the terrace while drinking your hot beverage. \n\n<img src=https://stat.ameba.jp/user_images/20180822/16/saji-web/e0/95/j/o0540036014252388318.jpg>",
+            "name": "Librairie Café Myriagone"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.552994,
+              47.472834
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "description": "55 Rue Toussaint, 49100 Angers\nAfter a long visit to the city, you can stop by this bakery and taste some of the best angevin specialities pastries. \n\n<img src=https://tse1.mm.bing.net/th?id=OIP.B4xv9qe2LQ5RuxoHQWQ17wHaFj&pid=Api>\n",
+            "name": "Ma Petite Boulangerie "
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.557706,
+              47.469046
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Signorizza",
+            "description": "27 boulevard du Maréchal Foch, 49100, Angers France\nLooking for a delicious pizza in Angers? Then, let me introduce you to the Signorizza pizzeria! In this restaurant, you will be welcomed with open arms by smiling personnel and able to eat Italian food in a nice place and at an affordable price.\n\n<img src=https://mvistatic.com/photosmvi/2021/02/02/P24596308D4479677G.jpg>"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.550625,
+              47.467956
+            ]
+          }
         }
       ],
       "_umap_options": {
         "displayOnLoad": true,
         "browsable": true,
         "remoteData": {},
-        "name": "Bars",
         "iconClass": "Drop",
-        "iconUrl": "/uploads/pictogram/bar-24_1.png",
-        "id": 2029393
+        "iconUrl": "/uploads/pictogram/cafe-24_1.png",
+        "id": 2029393,
+        "name": "Food and Drinks"
       }
     },
     {
@@ -766,7 +843,8 @@
               "iconClass": "Default",
               "iconUrl": "/uploads/pictogram/rail-24-white.png"
             },
-            "name": "Gare Angers Saint-Laud"
+            "name": "Gare Angers Saint-Laud",
+            "description": "<img src=https://www.leader-park.com/wp-content/uploads/2018/06/Gare-Angers-Saint-Laud.jpg>"
           },
           "geometry": {
             "type": "Point",
@@ -793,20 +871,8 @@
         {
           "type": "Feature",
           "properties": {
-            "name": "Climb Up"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -0.50032,
-              47.43361
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "name": "Ice Park"
+            "name": "Ice Park",
+            "description": "Address : 5 Av. de la Constitution, 49100 Angers\nOpening hours : 12:00am - 7:30pm \n\nAngers Icepark is a quality skating rink where you can have a good time, either skating, or watching the local first division team: the Dukes of Angers\n\n<img src=https://www.chauvetprofessional.com/wp-content/uploads/2019/11/AngersIceParc_2.jpg>"
           },
           "geometry": {
             "type": "Point",
@@ -819,53 +885,28 @@
         {
           "type": "Feature",
           "properties": {
-            "name": "Stade de Frémur"
+            "name": "Le Colisée:",
+            "description": "8 bis Bd du Maréchal Foch, 49100 Angers, France\n\nTired after a long day of visits? In this situation, nothing is better than taking a break and having fun. No better place for this than Le Colisée! This modern bowling located in the town centre will allow you to let off steam with friends around a close bowling game. Plenty of other activities are possible as well: darts, pool or even just having a drink and enjoying the festive atmosphere. You will have understood it: there is something to suit all tastes!\n\n<img src=https://49.kidiklik.fr/images/agendas/50_5b44824cc63d5.jpeg>"
           },
           "geometry": {
             "type": "Point",
             "coordinates": [
-              -0.557728,
-              47.456532
+              -0.548914,
+              47.469788
             ]
           }
         },
         {
           "type": "Feature",
           "properties": {
-            "name": "Stade Mikulak"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -0.583777,
-              47.469356
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "name": "Stade Raymond Kopa",
-            "description": "Stade Raymond Kopa is a football stadium in Angers, France. It is the home ground of Ligue 1 side Angers SCO and seats 18,752 people. It is named after Raymond Kopa, a French football legend who made his professional debut with the club.\n\nAddress: Bd Pierre de Coubertin, 49000 Angers\nContact: +33241474356"
+            "name": "Raymond Kopa Stadium",
+            "description": "Address: Bd Pierre de Coubertin, 49000 Angers\nContact: +33241474356\n\nStade Raymond Kopa is a football stadium in Angers, France. It is the home ground of Ligue 1 side Angers SCO and seats 18,752 people. It is named after Raymond Kopa, a French football legend who made his professional debut with the club.\n\n<img src=https://i.pinimg.com/originals/fb/4e/c6/fb4ec642cbf40d4c057ab801f4a5c93d.jpg>"
           },
           "geometry": {
             "type": "Point",
             "coordinates": [
               -0.530927,
               47.460391
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "name": "SUAPS"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -0.59824,
-              47.480437
             ]
           }
         }
@@ -886,7 +927,8 @@
         {
           "type": "Feature",
           "properties": {
-            "name": " Jardin des Plantes"
+            "name": " Jardin des Plantes",
+            "description": "Address: Place Pierre Mendès France, 49100 Angers\n\nBotanical garden of the eighteenth century populated with various species, then developed with streams, paths and statues. It’s a beautiful place for a bucolic and serene walk, very well maintained, with differentiated spaces and varied atmospheres.This garden is really pleasant for walking, reading or resting... There is also a small farm and games for children for everyone to enjoy their stay.\n\n<img src=https://www.api-site.paris.fr/mairies/public/assets/2017/5/jardin_plantes_secondaire3_924.jpg>"
           },
           "geometry": {
             "type": "Polygon",
@@ -956,7 +998,7 @@
           "type": "Feature",
           "properties": {
             "name": "Jardin des Plantes",
-            "description": "Botanical garden of the eighteenth century populated with various species, then developed with streams, paths and statues."
+            "description": "Address: Place Pierre Mendès France, 49100 Angers\n\nBotanical garden of the eighteenth century populated with various species, then developed with streams, paths and statues. It’s a beautiful place for a bucolic and serene walk, very well maintained, with differentiated spaces and varied atmospheres.This garden is really pleasant for walking, reading or resting... There is also a small farm and games for children for everyone to enjoy their stay.\n\n<img src=https://www.api-site.paris.fr/mairies/public/assets/2017/5/jardin_plantes_secondaire3_924.jpg>"
           },
           "geometry": {
             "type": "Point",
@@ -969,15 +1011,176 @@
         {
           "type": "Feature",
           "properties": {
-            "name": "Lac de Maine"
+            "name": "Jardin du Mail",
+            "description": "Urban garden with a wrought-iron gazebo, fountain and classical flowerbeds.\n<img src=https://tse3.mm.bing.net/th?id=OIP.PYqzAHOaemKySVosOiMHwQHaFj&pid=Api>"
           },
           "geometry": {
             "type": "Polygon",
             "coordinates": [
               [
                 [
-                  -0.594335,
-                  47.449683
+                  -0.546835,
+                  47.471296
+                ],
+                [
+                  -0.54753,
+                  47.47044
+                ],
+                [
+                  -0.545985,
+                  47.4699
+                ],
+                [
+                  -0.545754,
+                  47.469646
+                ],
+                [
+                  -0.544703,
+                  47.469243
+                ],
+                [
+                  -0.544486,
+                  47.469529
+                ],
+                [
+                  -0.544446,
+                  47.469547
+                ],
+                [
+                  -0.544401,
+                  47.469555
+                ],
+                [
+                  -0.544301,
+                  47.469583
+                ],
+                [
+                  -0.544248,
+                  47.469605
+                ],
+                [
+                  -0.544208,
+                  47.46963
+                ],
+                [
+                  -0.544176,
+                  47.469655
+                ],
+                [
+                  -0.544146,
+                  47.469683
+                ],
+                [
+                  -0.544106,
+                  47.46974
+                ],
+                [
+                  -0.544086,
+                  47.469791
+                ],
+                [
+                  -0.544078,
+                  47.469844
+                ],
+                [
+                  -0.544087,
+                  47.469888
+                ],
+                [
+                  -0.544106,
+                  47.469932
+                ],
+                [
+                  -0.54416,
+                  47.47001
+                ],
+                [
+                  -0.544177,
+                  47.470042
+                ],
+                [
+                  -0.544177,
+                  47.470057
+                ],
+                [
+                  -0.544167,
+                  47.470073
+                ],
+                [
+                  -0.544142,
+                  47.470108
+                ],
+                [
+                  -0.544114,
+                  47.470147
+                ],
+                [
+                  -0.544054,
+                  47.470237
+                ],
+                [
+                  -0.543994,
+                  47.470315
+                ],
+                [
+                  -0.544014,
+                  47.47032
+                ],
+                [
+                  -0.546835,
+                  47.471296
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Jardin du Mail",
+            "description": "Urban garden with a wrought-iron gazebo, fountain and classical flowerbeds.\n\n<img src=https://tse3.mm.bing.net/th?id=OIP.PYqzAHOaemKySVosOiMHwQHaFj&pid=Api>"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.545497,
+              47.470262
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Lac de Maine",
+            "description": "Artificial lake created by the municipality, on the shores of which a recreational park has been developed.\n\n<img src=https://img.ev.mu/images/villes/268/960x640/16243.jpg>"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -0.591631,
+                  47.450583
+                ],
+                [
+                  -0.593541,
+                  47.449509
+                ],
+                [
+                  -0.594957,
+                  47.448276
+                ],
+                [
+                  -0.595429,
+                  47.448327
+                ],
+                [
+                  -0.594925,
+                  47.450032
+                ],
+                [
+                  -0.595493,
+                  47.450061
                 ],
                 [
                   -0.596094,
@@ -988,72 +1191,120 @@
                   47.455777
                 ],
                 [
-                  -0.595408,
-                  47.457402
+                  -0.595729,
+                  47.457337
                 ],
                 [
-                  -0.596824,
-                  47.457867
+                  -0.597049,
+                  47.457903
                 ],
                 [
-                  -0.595193,
-                  47.462538
+                  -0.59692,
+                  47.458918
                 ],
                 [
-                  -0.59382,
-                  47.464047
+                  -0.596888,
+                  47.459557
                 ],
                 [
-                  -0.592146,
-                  47.465671
+                  -0.596673,
+                  47.460086
                 ],
                 [
-                  -0.591202,
-                  47.4666
+                  -0.596073,
+                  47.461385
                 ],
                 [
-                  -0.589829,
-                  47.467615
+                  -0.595332,
+                  47.462603
                 ],
                 [
-                  -0.588369,
-                  47.468457
+                  -0.593927,
+                  47.464105
                 ],
                 [
-                  -0.587468,
-                  47.468369
+                  -0.593101,
+                  47.464953
                 ],
                 [
-                  -0.585966,
-                  47.467702
+                  -0.592275,
+                  47.465831
                 ],
                 [
-                  -0.584421,
-                  47.466919
+                  -0.591878,
+                  47.466513
                 ],
                 [
-                  -0.583091,
-                  47.466484
+                  -0.59162,
+                  47.466738
                 ],
                 [
-                  -0.582061,
-                  47.465933
+                  -0.591309,
+                  47.466941
                 ],
                 [
-                  -0.580645,
-                  47.465497
+                  -0.590526,
+                  47.46739
                 ],
                 [
-                  -0.579186,
-                  47.46512
+                  -0.589957,
+                  47.467709
                 ],
                 [
-                  -0.577254,
-                  47.464627
+                  -0.589206,
+                  47.468246
                 ],
                 [
-                  -0.575838,
-                  47.464453
+                  -0.588799,
+                  47.468536
+                ],
+                [
+                  -0.588348,
+                  47.468681
+                ],
+                [
+                  -0.587822,
+                  47.468667
+                ],
+                [
+                  -0.58749,
+                  47.468623
+                ],
+                [
+                  -0.5872,
+                  47.468536
+                ],
+                [
+                  -0.585698,
+                  47.467992
+                ],
+                [
+                  -0.583992,
+                  47.467216
+                ],
+                [
+                  -0.582801,
+                  47.466614
+                ],
+                [
+                  -0.581685,
+                  47.466136
+                ],
+                [
+                  -0.580301,
+                  47.465657
+                ],
+                [
+                  -0.578992,
+                  47.465302
+                ],
+                [
+                  -0.576975,
+                  47.464939
+                ],
+                [
+                  -0.575345,
+                  47.464714
                 ],
                 [
                   -0.576825,
@@ -1064,32 +1315,44 @@
                   47.461232
                 ],
                 [
-                  -0.578413,
-                  47.459724
+                  -0.577887,
+                  47.460449
+                ],
+                [
+                  -0.578284,
+                  47.459666
                 ],
                 [
                   -0.579228,
                   47.458418
                 ],
                 [
-                  -0.580258,
-                  47.456677
+                  -0.580398,
+                  47.456713
                 ],
                 [
                   -0.581675,
                   47.455255
                 ],
                 [
-                  -0.584228,
-                  47.453862
+                  -0.582865,
+                  47.454472
                 ],
                 [
-                  -0.589271,
-                  47.451976
+                  -0.584164,
+                  47.453768
                 ],
                 [
-                  -0.594335,
-                  47.449683
+                  -0.586256,
+                  47.452788
+                ],
+                [
+                  -0.589002,
+                  47.451744
+                ],
+                [
+                  -0.591631,
+                  47.450583
                 ]
               ]
             ]
@@ -1099,7 +1362,7 @@
           "type": "Feature",
           "properties": {
             "name": "Lac de Maine",
-            "description": "Artificial lake created by the municipality, on the shores of which a recreational park has been developed."
+            "description": "Artificial lake created by the municipality, on the shores of which a recreational park has been developed.\n\n<img src=https://img.ev.mu/images/villes/268/960x640/16243.jpg>"
           },
           "geometry": {
             "type": "Point",
@@ -1112,7 +1375,8 @@
         {
           "type": "Feature",
           "properties": {
-            "name": "Parc Balzac"
+            "name": "Parc Balzac",
+            "description": "Bridges and footpaths overlooking the Maine River and linking green spaces and canals.\n\n<img src=https://tse2.mm.bing.net/th?id=OIP.dW2DhCAVvhw1d6YSNy58cAHaEL&pid=Api>"
           },
           "geometry": {
             "type": "Polygon",
@@ -1226,7 +1490,7 @@
           "type": "Feature",
           "properties": {
             "name": "Parc Balzac",
-            "description": "Bridges and footpaths overlooking the Maine River and linking green spaces and canals."
+            "description": "Bridges and footpaths overlooking the Maine River and linking green spaces and canals.\n\n<img src=https://tse2.mm.bing.net/th?id=OIP.dW2DhCAVvhw1d6YSNy58cAHaEL&pid=Api>"
           },
           "geometry": {
             "type": "Point",
@@ -1239,67 +1503,59 @@
         {
           "type": "Feature",
           "properties": {
-            "name": "Parc du Mail"
+            "name": "Parc de l’arboretum"
           },
           "geometry": {
             "type": "Polygon",
             "coordinates": [
               [
                 [
-                  -0.546806,
-                  47.471256
+                  -0.539757,
+                  47.450677
                 ],
                 [
-                  -0.547509,
-                  47.470436
+                  -0.542042,
+                  47.450481
                 ],
                 [
-                  -0.545985,
-                  47.4699
+                  -0.542053,
+                  47.449567
                 ],
                 [
-                  -0.545754,
-                  47.469646
+                  -0.544252,
+                  47.449582
                 ],
                 [
-                  -0.544703,
-                  47.469243
+                  -0.544424,
+                  47.45038
                 ],
                 [
-                  -0.54451,
-                  47.46953
+                  -0.544757,
+                  47.451417
                 ],
                 [
-                  -0.544408,
-                  47.469573
+                  -0.541656,
+                  47.451903
                 ],
                 [
-                  -0.544215,
-                  47.469631
+                  -0.541667,
+                  47.452324
                 ],
                 [
-                  -0.544134,
-                  47.469744
+                  -0.541152,
+                  47.452353
                 ],
                 [
-                  -0.544097,
-                  47.469838
+                  -0.540701,
+                  47.452172
                 ],
                 [
-                  -0.544183,
-                  47.470019
+                  -0.540339,
+                  47.451657
                 ],
                 [
-                  -0.54415,
-                  47.470143
-                ],
-                [
-                  -0.544011,
-                  47.470324
-                ],
-                [
-                  -0.546806,
-                  47.471256
+                  -0.539757,
+                  47.450677
                 ]
               ]
             ]
@@ -1308,14 +1564,425 @@
         {
           "type": "Feature",
           "properties": {
-            "name": "Parc du Mail",
-            "description": "Urban garden with a wrought-iron gazebo, fountain and classical flowerbeds."
+            "name": "Parc de l’arboretum"
           },
           "geometry": {
             "type": "Point",
             "coordinates": [
-              -0.545497,
-              47.470262
+              -0.542622,
+              47.45125
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "description": "Riverfront park with jogging trails, sports area, picnic areas and native wildlife.\n",
+            "name": "Parc Saint-Nicolas"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -0.576265,
+                  47.473865
+                ],
+                [
+                  -0.577085,
+                  47.473807
+                ],
+                [
+                  -0.577391,
+                  47.473901
+                ],
+                [
+                  -0.577541,
+                  47.474365
+                ],
+                [
+                  -0.577702,
+                  47.474561
+                ],
+                [
+                  -0.578013,
+                  47.474756
+                ],
+                [
+                  -0.578646,
+                  47.474938
+                ],
+                [
+                  -0.579483,
+                  47.475112
+                ],
+                [
+                  -0.580317,
+                  47.475161
+                ],
+                [
+                  -0.581272,
+                  47.475168
+                ],
+                [
+                  -0.582047,
+                  47.475139
+                ],
+                [
+                  -0.582302,
+                  47.475134
+                ],
+                [
+                  -0.582584,
+                  47.475199
+                ],
+                [
+                  -0.58311,
+                  47.475489
+                ],
+                [
+                  -0.583005,
+                  47.475718
+                ],
+                [
+                  -0.583104,
+                  47.476205
+                ],
+                [
+                  -0.583284,
+                  47.476205
+                ],
+                [
+                  -0.583555,
+                  47.476084
+                ],
+                [
+                  -0.583654,
+                  47.476178
+                ],
+                [
+                  -0.583592,
+                  47.47624
+                ],
+                [
+                  -0.583439,
+                  47.476234
+                ],
+                [
+                  -0.583032,
+                  47.476321
+                ],
+                [
+                  -0.58311,
+                  47.47645
+                ],
+                [
+                  -0.583281,
+                  47.476528
+                ],
+                [
+                  -0.583222,
+                  47.47663
+                ],
+                [
+                  -0.583075,
+                  47.476727
+                ],
+                [
+                  -0.58312,
+                  47.476836
+                ],
+                [
+                  -0.583281,
+                  47.476896
+                ],
+                [
+                  -0.583281,
+                  47.477019
+                ],
+                [
+                  -0.583091,
+                  47.477034
+                ],
+                [
+                  -0.582879,
+                  47.477094
+                ],
+                [
+                  -0.582863,
+                  47.477386
+                ],
+                [
+                  -0.582621,
+                  47.477431
+                ],
+                [
+                  -0.582466,
+                  47.477556
+                ],
+                [
+                  -0.582498,
+                  47.478346
+                ],
+                [
+                  -0.584386,
+                  47.479281
+                ],
+                [
+                  -0.587267,
+                  47.479855
+                ],
+                [
+                  -0.589471,
+                  47.480325
+                ],
+                [
+                  -0.589601,
+                  47.480137
+                ],
+                [
+                  -0.591403,
+                  47.480475
+                ],
+                [
+                  -0.591816,
+                  47.480881
+                ],
+                [
+                  -0.593516,
+                  47.48071
+                ],
+                [
+                  -0.594665,
+                  47.481008
+                ],
+                [
+                  -0.595769,
+                  47.48137
+                ],
+                [
+                  -0.5977,
+                  47.48245
+                ],
+                [
+                  -0.600587,
+                  47.482668
+                ],
+                [
+                  -0.602679,
+                  47.483669
+                ],
+                [
+                  -0.602089,
+                  47.483799
+                ],
+                [
+                  -0.602411,
+                  47.484176
+                ],
+                [
+                  -0.603881,
+                  47.484727
+                ],
+                [
+                  -0.604514,
+                  47.485206
+                ],
+                [
+                  -0.604911,
+                  47.48551
+                ],
+                [
+                  -0.605468,
+                  47.485633
+                ],
+                [
+                  -0.606166,
+                  47.485604
+                ],
+                [
+                  -0.606745,
+                  47.485459
+                ],
+                [
+                  -0.607689,
+                  47.485568
+                ],
+                [
+                  -0.609223,
+                  47.48659
+                ],
+                [
+                  -0.608494,
+                  47.488693
+                ],
+                [
+                  -0.607035,
+                  47.489519
+                ],
+                [
+                  -0.604074,
+                  47.490056
+                ],
+                [
+                  -0.60314,
+                  47.489295
+                ],
+                [
+                  -0.600866,
+                  47.489005
+                ],
+                [
+                  -0.59946,
+                  47.488425
+                ],
+                [
+                  -0.599975,
+                  47.48746
+                ],
+                [
+                  -0.600544,
+                  47.487569
+                ],
+                [
+                  -0.601188,
+                  47.487163
+                ],
+                [
+                  -0.600018,
+                  47.486946
+                ],
+                [
+                  -0.598913,
+                  47.486518
+                ],
+                [
+                  -0.598666,
+                  47.485894
+                ],
+                [
+                  -0.598479,
+                  47.485333
+                ],
+                [
+                  -0.599203,
+                  47.48518
+                ],
+                [
+                  -0.599009,
+                  47.484212
+                ],
+                [
+                  -0.594514,
+                  47.483603
+                ],
+                [
+                  -0.595265,
+                  47.484314
+                ],
+                [
+                  -0.5924,
+                  47.484183
+                ],
+                [
+                  -0.590759,
+                  47.483737
+                ],
+                [
+                  -0.591725,
+                  47.483466
+                ],
+                [
+                  -0.589536,
+                  47.483379
+                ],
+                [
+                  -0.585834,
+                  47.482965
+                ],
+                [
+                  -0.585212,
+                  47.482476
+                ],
+                [
+                  -0.584681,
+                  47.481588
+                ],
+                [
+                  -0.581624,
+                  47.480946
+                ],
+                [
+                  -0.581758,
+                  47.480442
+                ],
+                [
+                  -0.58098,
+                  47.48021
+                ],
+                [
+                  -0.58106,
+                  47.479833
+                ],
+                [
+                  -0.580599,
+                  47.479484
+                ],
+                [
+                  -0.579499,
+                  47.479188
+                ],
+                [
+                  -0.578389,
+                  47.478832
+                ],
+                [
+                  -0.577101,
+                  47.478756
+                ],
+                [
+                  -0.57678,
+                  47.477483
+                ],
+                [
+                  -0.577064,
+                  47.476544
+                ],
+                [
+                  -0.577284,
+                  47.475845
+                ],
+                [
+                  -0.576656,
+                  47.475268
+                ],
+                [
+                  -0.576463,
+                  47.474902
+                ],
+                [
+                  -0.576254,
+                  47.474431
+                ],
+                [
+                  -0.576265,
+                  47.473865
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "description": "Riverfront park with jogging trails, sports area, picnic areas and native wildlife.",
+            "name": "Parc Saint-Nicolas"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.588198,
+              47.481858
             ]
           }
         },
@@ -1323,13 +1990,13 @@
           "type": "Feature",
           "properties": {
             "name": "Terra Botanica",
-            "description": "Live an experience guided on a boat and explore the park. The park  is an immense botanical garden with plants from all over the world. you’ll also be able to look at  an imitation of the Louisiana Bayou."
+            "description": "Live an experience guided on a boat and explore the park. The park  is an immense botanical garden with plants from all over the world. you’ll also be able to look at  an imitation of the Louisiana Bayou.\n\n<img src=https://tse4.mm.bing.net/th?id=OIP.48zubi9mBoNgTMJrQ7bI9QHaFj&pid=Api>"
           },
           "geometry": {
             "type": "Point",
             "coordinates": [
               -0.569487,
-              47.501968
+              47.501272
             ]
           }
         }
@@ -1350,21 +2017,78 @@
         {
           "type": "Feature",
           "properties": {
-            "name": "Arena Loire",
-            "description": "With Patoche des fois"
+            "description": "Address: 2 Prom. du Bout du Monde, 49100 Angers\nContact: +33241864877\nOpening hours: 10am - 5:30pm\nAverage price: 9.50€\n\nThe Loire region is famous for its castles and Angers has a great one. It’s a true fortress of a castle great for families and small children. This impressive castle is more than 800 years old and was originally a fort. You could spend hours here, it is very well maintained and has some great views of the city while taking a stroll through the gardens and the Chappel. But the greatest treasure is inside, a superb and splendid tapestry of the late 14th century; theme, the Apocalypse. You could decide to visit with a guided tour, you will learn so much and understand much better the details, worth to appreciate fully.\n\n<img src=https://tse4.mm.bing.net/th?id=OIP.sDyrEm4fpMJI7CK7AQGcsAHaFj&pid=Api>",
+            "name": "Angers Castle"
           },
           "geometry": {
             "type": "Point",
             "coordinates": [
-              -0.477111,
-              47.442486
+              -0.55968,
+              47.469951
             ]
           }
         },
         {
           "type": "Feature",
           "properties": {
-            "name": "Cinéma Pathé"
+            "name": "Cathédrale Saint-Maurice",
+            "description": "Angers Cathedral is a Roman Catholic church dedicated to Saint Maurice in Angers, France. \nBuilt between the 11th and 16th centuries, it is known for its mixture of romanesque and Gothic architecture, its ornate Baroque altar and sculpture. It also has an extensive collection of stained glass windows, including the transept's window of Saint Julian, considered to be a masterpiece of French 13th-century glasswork. as a national monument of France.\n\n<img src=https://tse4.mm.bing.net/th?id=OIP.kTvV7AwwdvuX1P5lzazaxQHaHa&pid=Api>"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.554944,
+              47.47052
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "description": "Address: 2 Prom. du Bout du Monde, 49100 Angers\nContact: +33241864877\nOpening hours: 10am - 5:30pm\nAverage price: 9.50€\n\nThe Loire region is famous for its castles and Angers has a great one. It’s a true fortress of a castle great for families and small children. This impressive castle is more than 800 years old and was originally a fort. You could spend hours here, it is very well maintained and has some great views of the city while taking a stroll through the gardens and the Chappel. But the greatest treasure is inside, a superb and splendid tapestry of the late 14th century; theme, the Apocalypse. You could decide to visit with a guided tour, you will learn so much and understand much better the details, worth to appreciate fully.\n\n<img src=https://tse4.mm.bing.net/th?id=OIP.sDyrEm4fpMJI7CK7AQGcsAHaFj&pid=Api>",
+            "name": "Château d’Angers"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -0.560206,
+                  47.469414
+                ],
+                [
+                  -0.561644,
+                  47.47003
+                ],
+                [
+                  -0.559509,
+                  47.47098
+                ],
+                [
+                  -0.558039,
+                  47.469856
+                ],
+                [
+                  -0.558726,
+                  47.46887
+                ],
+                [
+                  -0.559509,
+                  47.469124
+                ],
+                [
+                  -0.560206,
+                  47.469414
+                ]
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Cinéma Pathé",
+            "description": "<img src=https://www.cinemaspathegaumont.com/media/offer/common/backdrop/30229/pathe-angers-001.jpg>"
           },
           "geometry": {
             "type": "Point",
@@ -1378,7 +2102,10 @@
           "type": "Feature",
           "properties": {
             "name": "Maison d'Adam",
-            "description": "This is a popular tourist spot. It is a building made half of timber and half of stone. It is located behind the Cathedral and is a symbol of the architecture of the times\n\nMaison D Adam Timing: 09:30 am - 07:00 pm\nAddress: 1 Place Sainte-Croix, 49100 Angers\nContact: +33241880627"
+            "description": "Address: 1 Place Sainte-Croix, 49100 Angers\nTiming: 09:30 am - 07:00 pm\nContact: +33241880627\n\nThere are many historic buildings in Angers, among them many houses, but this is one of the most impressive, with its elaborately carved wooden exterior. These days it houses what we would call an art and craft center, but you don't need to go inside to enjoy the aesthetic of a very handsome old structure. If you decide to go in however, it is fascinating to walk around. The staff are helpful but not pushy and you may also be tempted to buy some of the arts and crafts within.\nIt is located behind the Cathedral and is a symbol of the architecture of the times\n\n<img src=https://c2.staticflickr.com/4/3857/15150694882_9da486e370_b.jpg>",
+            "_umap_options": {
+              "showLabel": null
+            }
           },
           "geometry": {
             "type": "Point",
@@ -1391,26 +2118,84 @@
         {
           "type": "Feature",
           "properties": {
-            "name": "Théatre \"Le Quai\""
+            "name": "Maison des Vins d'Anjou",
+            "description": "The perfect way to discover french Wine. Ideal after the Castle visit.\nOpening hours : 11am - 7:30pm\nAdress : 5 Bis Pl. du Président Kennedy, 49100 Angers\n\n<img src=https://media-cdn.tripadvisor.com/media/photo-s/12/48/22/82/vue-exterieure.jpg>"
           },
           "geometry": {
             "type": "Point",
             "coordinates": [
-              -0.564492,
-              47.472351
+              -0.557862,
+              47.469786
             ]
           }
         },
         {
           "type": "Feature",
           "properties": {
-            "name": "Town Hall"
+            "name": "Military Engineering Museum",
+            "description": "Address : 106 Rue Eblé, 49000 Angers\nDescription : Very good presentation of military engineering activities from Roman times to the present day with a complete section devoted to Vauban. We better understand the role of the various units sappers deminers engineers. There is also a presentation of many mannequins in uniforms and models of machines that have been used in wars throughout the time. \n\n<img src=https://www.musee-du-genie-angers.fr/fpdb/18614811-2019-09shermandozer_opt.jpg>"
           },
           "geometry": {
             "type": "Point",
             "coordinates": [
-              -0.548083,
-              47.471325
+              -0.565238,
+              47.457562
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Musée des Beaux-Arts d’Angers",
+            "description": "Address : 14 Rue du Musée, 49100, Angers France\nOpening Hours : 10AM–6PM\n\nEager to learn more about Angers and its history? What do you think of a tour at the Musée des Beaux Arts d’Angers? Indeed, the museum provides an exposition on local archaeological pieces from the Neolithic period to our day. To add to the list, we can mention its impressive collection of paintings and sculptures. So, take note of the address and don’t forget to take a look: there is enough to keep you busy for a few hours!\n\n<img src=https://culturezvous.com/wp-content/uploads/2018/09/musee-beaux-arts-angers-2.jpg>"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.554525,
+              47.468866
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Musée Jean Lurçat",
+            "description": "Address : 4 Bd Arago d, 49100 Angers\nOpening hours : 10AM–6PM\n\nMagnificent tapestries by Jean Lurcat highlighted in an exceptional place that is the former Saint Jean hospital. The tapestries have a deep black background that makes the vivid colors and tortured subjects burst, inspired by the wonderful tapestry of the apocalypse in the castle of King René. \n\n<img src=https://49.kidiklik.fr/images/activites/50_564208e860b49.jpeg>\n"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.557599,
+              47.478062
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Pincé Museum",
+            "description": "Address : 32 Rue Lenepveu, 49100 Angers \nDescription : The Hôtel de Pincé, a major building of the Angevin Renaissance, transformed at the end of the 19th century into a museum, is a place to discover ancient Mediterranean, pre-Columbian and Asian civilizations.\nOpening hours : 10am - 6:00pm - (/!\\ Might be close /!\\)\n\n<img src=https://tse2.mm.bing.net/th?id=OIP.GcRzZIGyUcqWPfCzRdFBAgHaJ4&pid=Api>"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.552047,
+              47.472043
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Théatre \"Le Quai\"",
+            "description": "Address : Cale de la Savatte, 49100 Angers\n\nLe Quai is a space for creation, shows and meetings for all audiences, a place where all the living, plastic, digital, scenic, lyrical, circus, theater, dance, music … It offers lots of different shows depending on the season.\n\n<img src=https://agendaculturel.emstorage.fr/theatre-le-quai-65157057.jpg<"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.564492,
+              47.472351
             ]
           }
         }
@@ -1423,6 +2208,37 @@
         "color": "DarkOrchid",
         "iconUrl": "/uploads/pictogram/theatre-24-white.png",
         "id": 2029442
+      }
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "description": "Address: 4 Rue Larrey, 49100 Angers\nContact: +33241353637\n\n<img src=https://fr.sott.net/image/s28/562776/large/CHU_Angers.jpg>",
+            "name": "Angers Hospital"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.555233,
+              47.48259
+            ]
+          }
+        }
+      ],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "remoteData": {},
+        "name": "health",
+        "color": "Lime",
+        "iconClass": "Drop",
+        "iconUrl": "/uploads/pictogram/hospital-24-white.png",
+        "id": 2038227,
+        "weight": "10",
+        "fill": true
       }
     }
   ]
