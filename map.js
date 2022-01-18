@@ -53,6 +53,11 @@ let iconArray = [
         iconUrl: 'icons/culture.png',
         iconSize: [32, 41],
         iconAnchor: [16, 41]
+    }),
+    L.icon({
+        iconUrl: 'icons/Health.png',
+        iconSize: [32, 41],
+        iconAnchor: [16, 41]
     })
 ];
 
