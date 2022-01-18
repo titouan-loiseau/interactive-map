@@ -12,6 +12,7 @@
     z-index: 999;
     display: flex;
     flex-direction: column;
+    pointer-events: none;
 }
 
 .map-cont {
@@ -35,10 +36,10 @@
     align-items: center;
     border-radius: 10px;
     margin-bottom: 5px;
-    width: var(--filter-cont-w);
     transition: .2s;
     position: relative;
     overflow: hidden;
+    pointer-events: visible;
 }
 
 .filter-el:hover {

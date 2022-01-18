@@ -88,6 +88,8 @@ function update() {
         // Loop through every layer
         readData.layers.forEach(dataPoi => {
 
+            console.log("layer");
+
             // Check that the layer is not filtered
             if(filters[LayerID]) {
 
