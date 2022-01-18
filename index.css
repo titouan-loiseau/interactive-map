@@ -150,13 +150,13 @@ body {
 }
   
 .navbar-bottom {
-  height: 150px;
+  height: 170px;
   background-color: rgb(255 255 255 / 55%);
   width: 100%;
   display: flex;
   flex-direction: column;
   position: fixed;
-  bottom: -120px;
+  bottom: -105px;
   transition: all .5s;
   z-index: 10;
 }
