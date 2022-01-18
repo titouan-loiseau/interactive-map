@@ -6,8 +6,8 @@
     position: relative;
     top: 50vh;
     transform: translateY(-50%);
-    left: 0;
-    width: var(--filter-cont-w);
+    left: 10px;
+    width: 300px;
     z-index: 999;
     display: flex;
     flex-direction: column;
@@ -23,7 +23,7 @@
 .mapid-cont {
     position: absolute;
     top: 0;
-    width: calc(100vw);
+    width: 100vw;
     height: 100%;
 }
 
@@ -34,13 +34,18 @@
     cursor: pointer;
     display: flex;
     align-items: center;
-    justify-content: center;
     border-radius: 10px;
     margin-bottom: 5px;
+    width: var(--filter-cont-w);
+    transition: .2s;
+}
+
+.filter-el:hover {
+    width: 100%;
 }
 
 .filter-el[f-sel="1"] {
-    background: #d8d8d8;
+    background: #019fe3;
 }
 
 .filter-el[f-sel="0"] {
@@ -52,12 +57,18 @@
         top: 130px;
         transform: translateY(0%);
     }
+
+    .filter-el:hover {
+        width: var(--filter-cont-w);
+    }
 }
 
 .filter-img {
     height: 60%;
-    display: flex;
-    align-items: center;
+    position: relative;
+    left: calc(var(--filter-cont-w)/2);
+    transform: translateX(-50%);
+    
 }
 
 .filter-img img {
