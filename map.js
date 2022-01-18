@@ -6,7 +6,7 @@ var osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.
 });
 map.addLayer(osmLayer);
 
-// 0: important places, 1: schools and universities, 2: ATM, 3: commerces, 4: Bars, 5: Gare, 6: Sports, 7: Park, 8: culture
+// 0: important places, 1: schools and universities, 2: ATM, 3: commerces, 4: Bars, 5: Gare, 6: Sports, 7: Park, 8: culture, p: health
 
 let iconArray = [
     L.icon({
