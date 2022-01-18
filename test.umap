@@ -1,6 +1,6 @@
 {
   "type": "umap",
-  "uri": "https://umap.openstreetmap.fr/fr/map/angers_699285#14/47.4685/-0.5411",
+  "uri": "https://umap.openstreetmap.fr/fr/map/angers_699285#16/47.4708/-0.5579",
   "properties": {
     "easing": true,
     "embedControl": true,
@@ -36,6 +36,179 @@
         {
           "type": "Feature",
           "properties": {
+            "name": "Proposed itinerary "
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -0.560501,
+                47.474563
+              ],
+              [
+                -0.560297,
+                47.474425
+              ],
+              [
+                -0.564138,
+                47.471836
+              ],
+              [
+                -0.565812,
+                47.472605
+              ],
+              [
+                -0.566198,
+                47.472286
+              ],
+              [
+                -0.566745,
+                47.471916
+              ],
+              [
+                -0.566176,
+                47.471575
+              ],
+              [
+                -0.562454,
+                47.470117
+              ],
+              [
+                -0.561702,
+                47.469892
+              ],
+              [
+                -0.560469,
+                47.469392
+              ],
+              [
+                -0.560104,
+                47.46929
+              ],
+              [
+                -0.558634,
+                47.468819
+              ],
+              [
+                -0.557904,
+                47.469762
+              ],
+              [
+                -0.557368,
+                47.469646
+              ],
+              [
+                -0.55666,
+                47.469725
+              ],
+              [
+                -0.555566,
+                47.470516
+              ],
+              [
+                -0.554825,
+                47.470146
+              ],
+              [
+                -0.554536,
+                47.470139
+              ],
+              [
+                -0.554214,
+                47.470407
+              ],
+              [
+                -0.553881,
+                47.470987
+              ],
+              [
+                -0.553119,
+                47.470777
+              ],
+              [
+                -0.552819,
+                47.471045
+              ],
+              [
+                -0.552465,
+                47.471234
+              ],
+              [
+                -0.55231,
+                47.471118
+              ],
+              [
+                -0.552197,
+                47.471038
+              ],
+              [
+                -0.552122,
+                47.470995
+              ],
+              [
+                -0.552025,
+                47.47094
+              ],
+              [
+                -0.551961,
+                47.47089
+              ],
+              [
+                -0.551881,
+                47.470861
+              ],
+              [
+                -0.551789,
+                47.470824
+              ],
+              [
+                -0.551189,
+                47.471118
+              ],
+              [
+                -0.551891,
+                47.471655
+              ],
+              [
+                -0.551574,
+                47.471898
+              ],
+              [
+                -0.552427,
+                47.472514
+              ],
+              [
+                -0.552781,
+                47.472293
+              ],
+              [
+                -0.552867,
+                47.472373
+              ],
+              [
+                -0.552929,
+                47.472421
+              ]
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Ralliement Square",
+            "description": "This open place at the heart of Angers, close to shopping and historic center it offers a mixture of culture and dining! There are seats available to just sit and watch the world go by in this busy centre of Angers, with shops, cafes and the beautiful Grand Theatre around the square it is a perfect spot to visit!\n\n<img src=https://media.ouest-france.fr/v1/pictures/MjAxNjEwYWFmOTgwMzQ3YjU2NjcyZDU2NDBhNGVhZmY1NzEyN2Y?width=1260&height=712&focuspoint=50%2C25&cropresize=1&client_id=bpeditorial&sign=5c8a368e52e1e0f39f4770b66a55aaa8df7b1e7c54b1756014cf10911dc7a880>"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.551838,
+              47.471173
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
             "name": "Town Hall",
             "description": "The Town Hall of Angers\n\n<img src=https://tse4.mm.bing.net/th?id=OIP.SEZMUSS7wxszpBY0nGaLqwHaE7&pid=Api>"
           },
@@ -62,7 +235,7 @@
         {
           "type": "Feature",
           "properties": {
-            "name": "Campus Belle-Beille"
+            "name": "Belle-Beille campus"
           },
           "geometry": {
             "type": "Point",
@@ -75,7 +248,58 @@
         {
           "type": "Feature",
           "properties": {
-            "name": "campus Saint Serge"
+            "_umap_options": {
+              "iconClass": "Drop",
+              "iconUrl": "/uploads/pictogram/college-24_1.png",
+              "showLabel": null,
+              "labelInteractive": true
+            },
+            "name": "Polytech Angers",
+            "description": "Campus Belle-Beille :\n\nOpening hours : 7:45 am - 07:30 pm\nAddress: 62 Av. de Notre Dame du Lac, 49000 Angers\nContact: +33244687500\n\n<img src=https://tse2.mm.bing.net/th?id=OIP.23M9ObJq4KrbNR4zvOJEaQHaEK&pid=Api>"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.592189,
+              47.480582
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "iconClass": "Drop",
+              "iconUrl": "/uploads/pictogram/college-24_1.png"
+            },
+            "name": "Polytech Angers",
+            "description": "Campus Santé :\n\nAddress: 16 Bd Daviers, 49100 Angers,\nOpening hours :  7:45 am - 07:30 pm \nContact: +33244687500"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.559804,
+              47.479628
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Saint Serge campus"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.550529,
+              47.478
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Saint Serge campus"
           },
           "geometry": {
             "type": "Polygon",
@@ -106,44 +330,6 @@
                   47.477812
                 ]
               ]
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "_umap_options": {
-              "iconClass": "Drop",
-              "iconUrl": "/uploads/pictogram/college-24_1.png",
-              "showLabel": null,
-              "labelInteractive": true
-            },
-            "name": "Polytech Angers",
-            "description": "Campus Belle-Beille :\n\nTiming: 7:45 am - 07:30 pm\nAddress: 62 Av. de Notre Dame du Lac, 49000 Angers\nContact: +33244687500\n\n<img src=https://tse2.mm.bing.net/th?id=OIP.23M9ObJq4KrbNR4zvOJEaQHaEK&pid=Api>"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -0.592189,
-              47.480582
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "_umap_options": {
-              "iconClass": "Drop",
-              "iconUrl": "/uploads/pictogram/college-24_1.png"
-            },
-            "name": "Polytech Angers",
-            "description": "Campus Santé :\n\nTiming: ??:?? am - ??:?? pm\nAddress: 16 Bd Daviers, 49100 Angers, \nContact: +33244687500\n"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -0.559804,
-              47.479628
             ]
           }
         }
@@ -307,45 +493,6 @@
             "coordinates": [
               -0.554287,
               47.469923
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "name": "Carrefour City"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -0.549249,
-              47.475154
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "name": "Carrefour Grand Maine"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -0.595461,
-              47.46834
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "name": "Fnac"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -0.551284,
-              47.472016
             ]
           }
         },
@@ -693,7 +840,7 @@
             "_umap_options": {
               "iconUrl": "/uploads/pictogram/bar-24_1.png"
             },
-            "description": "7 boulevard Carnot\nA nice bar where you can let off steam by throwing axes at a target. Could you beat the record of 5 axes in the target in a row?\n\n<img src=https://static.wixstatic.com/media/41145f_1141c3ce9e994f4c8eb0d4da3f23514d~mv2.jpg/v1/fill/w_460,h_259,al_c,q_80,usm_0.66_1.00_0.01/IMG_3779.jpg>"
+            "description": "Address : 7 boulevard Carnot\n\nA nice bar where you can let off steam by throwing axes at a target. Could you beat the record of 5 axes in the target in a row?\n\n<img src=https://static.wixstatic.com/media/41145f_1141c3ce9e994f4c8eb0d4da3f23514d~mv2.jpg/v1/fill/w_460,h_259,al_c,q_80,usm_0.66_1.00_0.01/IMG_3779.jpg>"
           },
           "geometry": {
             "type": "Point",
@@ -706,8 +853,22 @@
         {
           "type": "Feature",
           "properties": {
+            "name": "Aux Jeunes Pousses",
+            "description": "4 Rue d'Anjou, 49100 Angers, France\n\nAux jeunes pousses is a typical french restaurant with unique menus and quality food. The menus are very creative. Everyday the chef proposes a single and different menu. This restaurant is considered as the best one in Angers, this is a place where you must eat. 84 feedbacks, no bad ones. Still doubting ?\n\n<img src=https://media-cdn.tripadvisor.com/media/photo-s/1a/88/a5/64/restaurant-gastronomique.jpg>"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.556797,
+              47.466132
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
             "name": "Bistrot des Ducs",
-            "description": "<img src=https://tse3.mm.bing.net/th?id=OIP.k7GW-eO6B0bd4cY26vOO7gHaEk&pid=Api>"
+            "description": "Adress : 5 Bis Pl. du Président Kennedy, 49100 Angers\nOpening hours : 12am - 9:30pm\n\nWhether it is the quality of the dishes or the services, everything here is of high quality. A great bistro to awaken your taste buds\n\n<img src=https://tse3.mm.bing.net/th?id=OIP.k7GW-eO6B0bd4cY26vOO7gHaEk&pid=Api>"
           },
           "geometry": {
             "type": "Point",
@@ -720,7 +881,7 @@
         {
           "type": "Feature",
           "properties": {
-            "name": "l'Okapi",
+            "name": "L'Okapi",
             "description": "15 Rue des Deux Haies\nA great bar where you can find some good cocktails. You can also find many shots notably the ‘’Dans ta gueule’’ which is a burning shot.\n\n<img src=http://www.angers-pratique.fr/wp-content/uploads/2013/03/Okapi-Angers.jpg>",
             "_umap_options": {
               "iconUrl": "/uploads/pictogram/bar-24_1.png"
@@ -751,7 +912,21 @@
         {
           "type": "Feature",
           "properties": {
-            "description": "40, Rue Baurepaire 49100 ANGERS\nThis place is a homely fast-food providing kebab & pizza. The service is simple and user-friendly.\n\n<img src=https://dandydenantes.fr/wp-content/uploads/2018/05/24-heures-angers-6.jpg>",
+            "name": "Lait Thym Sel",
+            "description": "Address : 65 rue Beaurepaire, 49100, Angers France\nOpening hours : 8:00pm - 9:00pm\n\nThe only Michelin-starred restaurant in Angers. Among the beautiful half-timbered houses of the Doutre district, we warmly recommend this little nugget run by a couple full of talent. He, in the kitchen, offers a seven-course tasting menu based on local products. It's delicious, inventive, and totally understandable, and it's no surprise given its impeccable track record: Prés d'Eugénie, Louis XV, and SaQuaNa... You'll enjoy it from start to finish, while also taking advantage of well-chosen wines and prices that are not extravagant. Attention, only 16 covers at each service: don't miss your chance!\n\n<img src=https://tse3.mm.bing.net/th?id=OIP.5tH3TWFmEawSKqXcR1AXWQHaFj&pid=Api>"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.561502,
+              47.474951
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "description": "40, Rue Baurepaire\n\nThis place is a homely fast-food providing kebab & pizza. The service is simple and user-friendly.\n\n<img src=https://dandydenantes.fr/wp-content/uploads/2018/05/24-heures-angers-6.jpg>",
             "name": "Le Quai’bab d’Aladin"
           },
           "geometry": {
@@ -796,7 +971,7 @@
         {
           "type": "Feature",
           "properties": {
-            "description": "55 Rue Toussaint, 49100 Angers\nAfter a long visit to the city, you can stop by this bakery and taste some of the best angevin specialities pastries. \n\n<img src=https://tse1.mm.bing.net/th?id=OIP.B4xv9qe2LQ5RuxoHQWQ17wHaFj&pid=Api>\n",
+            "description": "Address : 55 Rue Toussaint, 49100 Angers\n\nAfter a long visit to the city, you can stop by this bakery and taste some of the best angevin specialities pastries. \n\n<img src=https://tse1.mm.bing.net/th?id=OIP.B4xv9qe2LQ5RuxoHQWQ17wHaFj&pid=Api>\n",
             "name": "Ma Petite Boulangerie "
           },
           "geometry": {
@@ -810,14 +985,42 @@
         {
           "type": "Feature",
           "properties": {
+            "name": "Made Burger",
+            "description": "Address : 55 rue Saint Laud, 49100, Angers France"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.553497,
+              47.471707
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
             "name": "Signorizza",
-            "description": "27 boulevard du Maréchal Foch, 49100, Angers France\nLooking for a delicious pizza in Angers? Then, let me introduce you to the Signorizza pizzeria! In this restaurant, you will be welcomed with open arms by smiling personnel and able to eat Italian food in a nice place and at an affordable price.\n\n<img src=https://mvistatic.com/photosmvi/2021/02/02/P24596308D4479677G.jpg>"
+            "description": "Address : 27 boulevard du Maréchal Foch, 49100, Angers\n\nLooking for a delicious pizza in Angers? Then, let me introduce you to the Signorizza pizzeria! In this restaurant, you will be welcomed with open arms by smiling personnel and able to eat Italian food in a nice place and at an affordable price.\n\n<img src=https://mvistatic.com/photosmvi/2021/02/02/P24596308D4479677G.jpg>"
           },
           "geometry": {
             "type": "Point",
             "coordinates": [
               -0.550625,
               47.467956
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Yakitori - Sushi et Cuisine du Monde",
+            "description": "25 Rue des Lices, 49100 Angers, France\n\nWhat if I told you that you could eat Japanese food in Angers? It may seem quite hazardous to end up in a sushi bar in France, but still the selection on the menu is impressively wide with a thought addressed to vegan. The food they offer there is quite tasty and good: a place not to miss if you intend to discover, or rediscover, Asian food! \n\n<img src=https://tse2.mm.bing.net/th?id=OIP.SAAE1Kf4AwgJY82FhCAk8AHaJ4&pid=Api>"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.546153,
+              47.473466
             ]
           }
         }
@@ -1990,7 +2193,7 @@
           "type": "Feature",
           "properties": {
             "name": "Terra Botanica",
-            "description": "Live an experience guided on a boat and explore the park. The park  is an immense botanical garden with plants from all over the world. you’ll also be able to look at  an imitation of the Louisiana Bayou.\n\n<img src=https://tse4.mm.bing.net/th?id=OIP.48zubi9mBoNgTMJrQ7bI9QHaFj&pid=Api>"
+            "description": "Address: Rte d'Épinard, 49000 Angers\nContact: +33241250000\n\nLive an experience guided on a boat and explore the park. The park  is an immense botanical garden with plants from all over the world. you’ll also be able to look at  an imitation of the Louisiana Bayou.\n\n<img src=https://tse4.mm.bing.net/th?id=OIP.48zubi9mBoNgTMJrQ7bI9QHaFj&pid=Api>"
           },
           "geometry": {
             "type": "Point",
@@ -2014,76 +2217,6 @@
     {
       "type": "FeatureCollection",
       "features": [
-        {
-          "type": "Feature",
-          "properties": {
-            "description": "Address: 2 Prom. du Bout du Monde, 49100 Angers\nContact: +33241864877\nOpening hours: 10am - 5:30pm\nAverage price: 9.50€\n\nThe Loire region is famous for its castles and Angers has a great one. It’s a true fortress of a castle great for families and small children. This impressive castle is more than 800 years old and was originally a fort. You could spend hours here, it is very well maintained and has some great views of the city while taking a stroll through the gardens and the Chappel. But the greatest treasure is inside, a superb and splendid tapestry of the late 14th century; theme, the Apocalypse. You could decide to visit with a guided tour, you will learn so much and understand much better the details, worth to appreciate fully.\n\n<img src=https://tse4.mm.bing.net/th?id=OIP.sDyrEm4fpMJI7CK7AQGcsAHaFj&pid=Api>",
-            "name": "Angers Castle"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -0.55968,
-              47.469951
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "name": "Cathédrale Saint-Maurice",
-            "description": "Angers Cathedral is a Roman Catholic church dedicated to Saint Maurice in Angers, France. \nBuilt between the 11th and 16th centuries, it is known for its mixture of romanesque and Gothic architecture, its ornate Baroque altar and sculpture. It also has an extensive collection of stained glass windows, including the transept's window of Saint Julian, considered to be a masterpiece of French 13th-century glasswork. as a national monument of France.\n\n<img src=https://tse4.mm.bing.net/th?id=OIP.kTvV7AwwdvuX1P5lzazaxQHaHa&pid=Api>"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -0.554944,
-              47.47052
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
-            "description": "Address: 2 Prom. du Bout du Monde, 49100 Angers\nContact: +33241864877\nOpening hours: 10am - 5:30pm\nAverage price: 9.50€\n\nThe Loire region is famous for its castles and Angers has a great one. It’s a true fortress of a castle great for families and small children. This impressive castle is more than 800 years old and was originally a fort. You could spend hours here, it is very well maintained and has some great views of the city while taking a stroll through the gardens and the Chappel. But the greatest treasure is inside, a superb and splendid tapestry of the late 14th century; theme, the Apocalypse. You could decide to visit with a guided tour, you will learn so much and understand much better the details, worth to appreciate fully.\n\n<img src=https://tse4.mm.bing.net/th?id=OIP.sDyrEm4fpMJI7CK7AQGcsAHaFj&pid=Api>",
-            "name": "Château d’Angers"
-          },
-          "geometry": {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [
-                  -0.560206,
-                  47.469414
-                ],
-                [
-                  -0.561644,
-                  47.47003
-                ],
-                [
-                  -0.559509,
-                  47.47098
-                ],
-                [
-                  -0.558039,
-                  47.469856
-                ],
-                [
-                  -0.558726,
-                  47.46887
-                ],
-                [
-                  -0.559509,
-                  47.469124
-                ],
-                [
-                  -0.560206,
-                  47.469414
-                ]
-              ]
-            ]
-          }
-        },
         {
           "type": "Feature",
           "properties": {
@@ -2119,7 +2252,7 @@
           "type": "Feature",
           "properties": {
             "name": "Maison des Vins d'Anjou",
-            "description": "The perfect way to discover french Wine. Ideal after the Castle visit.\nOpening hours : 11am - 7:30pm\nAdress : 5 Bis Pl. du Président Kennedy, 49100 Angers\n\n<img src=https://media-cdn.tripadvisor.com/media/photo-s/12/48/22/82/vue-exterieure.jpg>"
+            "description": "Address : 5 Bis Pl. du Président Kennedy, 49100 Angers\nOpening hours : 11am - 7:30pm\n\nThe perfect way to discover french Wine. Ideal after the Castle visit.\n\n<img src=https://media-cdn.tripadvisor.com/media/photo-s/12/48/22/82/vue-exterieure.jpg>"
           },
           "geometry": {
             "type": "Point",
@@ -2133,7 +2266,7 @@
           "type": "Feature",
           "properties": {
             "name": "Military Engineering Museum",
-            "description": "Address : 106 Rue Eblé, 49000 Angers\nDescription : Very good presentation of military engineering activities from Roman times to the present day with a complete section devoted to Vauban. We better understand the role of the various units sappers deminers engineers. There is also a presentation of many mannequins in uniforms and models of machines that have been used in wars throughout the time. \n\n<img src=https://www.musee-du-genie-angers.fr/fpdb/18614811-2019-09shermandozer_opt.jpg>"
+            "description": "Address : 106 Rue Eblé, 49000 Angers\n\nVery good presentation of military engineering activities from Roman times to the present day with a complete section devoted to Vauban. We better understand the role of the various units sappers deminers engineers. There is also a presentation of many mannequins in uniforms and models of machines that have been used in wars throughout the time. \n\n<img src=https://www.musee-du-genie-angers.fr/fpdb/18614811-2019-09shermandozer_opt.jpg>"
           },
           "geometry": {
             "type": "Point",
