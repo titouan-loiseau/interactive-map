@@ -1,5 +1,6 @@
 :root {
     --filter-cont-w: 50px;
+    --filter-cont-w-open: 200px;
 }
 
 .filter-cont {
@@ -7,12 +8,10 @@
     top: 50vh;
     transform: translateY(-50%);
     left: 10px;
-    width: 300px;
+    width: var(--filter-cont-w-open);
     z-index: 999;
     display: flex;
     flex-direction: column;
-    overflow-y: hidden;
-    overflow-x: hidden;
 }
 
 .map-cont {
@@ -38,6 +37,8 @@
     margin-bottom: 5px;
     width: var(--filter-cont-w);
     transition: .2s;
+    position: relative;
+    overflow: hidden;
 }
 
 .filter-el:hover {
@@ -45,11 +46,18 @@
 }
 
 .filter-el[f-sel="1"] {
-    background: #019fe3;
+    background: #00b9f2;
 }
 
 .filter-el[f-sel="0"] {
     background: white;
+}
+
+.filter-desc {
+    position: absolute;
+    line-height: 100%;
+    left: var(--filter-cont-w);
+    width: calc(var(--filter-cont-w-open) - var(--filter-cont-w));
 }
 
 @media screen and (max-width: 500px) {
