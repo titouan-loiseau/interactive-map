@@ -70,6 +70,7 @@
     .filter-cont {
         top: 130px;
         transform: translateY(0%);
+        height: 65vh;
     }
 
     .filter-el:hover {

@@ -63,7 +63,7 @@ let iconArray = [
     })
 ];
 
-let filters = [true, true, true, true, true, true, true, true, true];
+let filters = [true, true, true, true, true, true, true, true, true, true, true, true, true];
 let location_marker = undefined, location_circle = undefined;
 
 function update() {
@@ -90,9 +90,7 @@ function update() {
 
         // Loop through every layer
         readData.layers.forEach(dataPoi => {
-
-            console.log("layer");
-
+            
             // Check that the layer is not filtered
             if(filters[LayerID]) {
 
