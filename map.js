@@ -62,12 +62,19 @@ let iconArray = [
 ];
 
 let filters = [true, true, true, true, true, true, true, true, true];
+let location_marker = undefined, location_circle = undefined;
 
 function update() {
     let LayerID = 0;
 
     // Remove existing markers
     removeMarkers();
+
+    // Add location marker back if it exists
+    if(location_marker != undefined) {
+        location_marker.addTo(map);
+        location_circle.addTo(map);
+    }
 
     // Read data
     $.getJSON("test.umap", function(readData) {
@@ -103,6 +110,7 @@ function update() {
             LayerID++;
         });
     });
+    updateloc();
 }
 
 function removeMarkers() {
@@ -131,14 +139,24 @@ function filterclick(id, el) {
     update();
 }
 
-map.locate({setView: true, maxZoom: 16});
+function updateloc() {
+    map.locate();
+}
+let t = setInterval(updateloc, 2000);
+
 function onLocationFound(e) {
     var radius = e.accuracy;
 
-    L.marker(e.latlng).addTo(map)
-    .bindPopup("You are within " + radius + " meters from this point").openPopup();
-
-    L.circle(e.latlng, radius).addTo(map);
+    if(location_marker == undefined) {
+        location_marker = L.marker(e.latlng).addTo(map);
+        location_circle = L.circle(e.latlng, radius).addTo(map);
+    }
+    else {
+        let newLatLng = new L.LatLng(e.latlng.lat, e.latlng.lng);
+        location_marker.setLatLng(newLatLng); 
+        location_circle.setLatLng(newLatLng); 
+        location_circle.setRadius(radius);
+    }
 }
 
 map.on('locationfound', onLocationFound);
