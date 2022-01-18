@@ -62,19 +62,12 @@ let iconArray = [
 ];
 
 let filters = [true, true, true, true, true, true, true, true, true];
-let location_marker = undefined, location_circle = undefined;
 
 function update() {
     let LayerID = 0;
 
     // Remove existing markers
     removeMarkers();
-
-    // Add location marker back if it exists
-    if(location_marker != undefined) {
-        location_marker.addTo(map);
-        location_circle.addTo(map);
-    }
 
     // Read data
     $.getJSON("test.umap", function(readData) {
@@ -104,13 +97,13 @@ function update() {
                         layer.bindPopup('<h1>'+feature.properties.name+'</h1><hr><br>'
                                     + feature.properties.description 
                                     );
+                        addPoint(feature);
                     }
                 }).addTo(map);
             }
             LayerID++;
         });
     });
-    updateloc();
 }
 
 function removeMarkers() {
@@ -139,24 +132,14 @@ function filterclick(id, el) {
     update();
 }
 
-function updateloc() {
-    map.locate();
-}
-let t = setInterval(updateloc, 2000);
-
+map.locate({setView: true, maxZoom: 16});
 function onLocationFound(e) {
     var radius = e.accuracy;
 
-    if(location_marker == undefined) {
-        location_marker = L.marker(e.latlng).addTo(map);
-        location_circle = L.circle(e.latlng, radius).addTo(map);
-    }
-    else {
-        let newLatLng = new L.LatLng(e.latlng.lat, e.latlng.lng);
-        location_marker.setLatLng(newLatLng); 
-        location_circle.setLatLng(newLatLng); 
-        location_circle.setRadius(radius);
-    }
+    L.marker(e.latlng).addTo(map)
+    .bindPopup("You are within " + radius + " meters from this point").openPopup();
+
+    L.circle(e.latlng, radius).addTo(map);
 }
 
 map.on('locationfound', onLocationFound);
