@@ -4,9 +4,6 @@ function addPoint(data){
 
     //console.log(data);
 
-    list.innerHTML = "";
-
-
     const bloc = document.createElement('div');
     bloc.className="bloc";
 
