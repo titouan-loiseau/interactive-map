@@ -65,6 +65,14 @@ body {
           float: none;
           display: block;
           text-align: left;
+          position: relative;
+          padding: 0;
+    }
+
+    .header a img {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     .header-right {

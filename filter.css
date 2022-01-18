@@ -35,6 +35,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 5px;
 }
 
 .filter-el[f-sel="1"] {
@@ -47,8 +49,8 @@
 
 @media screen and (max-width: 500px) {
     .filter-cont {
-        top: 100vh;
-        transform: translateY(-100%);
+        top: 00vh;
+        transform: translateY(0%);
     }
 }
 
