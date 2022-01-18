@@ -157,4 +157,5 @@ body {
   
 .opened {
     bottom: 0;
+    background: #fff;
 }
