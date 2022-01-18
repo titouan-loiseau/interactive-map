@@ -68,6 +68,10 @@ function update() {
 
     // Remove existing markers
     removeMarkers();
+    
+    //Clear List 
+    clearList();
+
 
     // Read data
     $.getJSON("test.umap", function(readData) {
