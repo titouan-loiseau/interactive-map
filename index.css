@@ -71,3 +71,7 @@ body {
           float: none;
     }
 }
+
+.leaflet-popup-content-wrapper {
+    max-width: 100%;
+}
