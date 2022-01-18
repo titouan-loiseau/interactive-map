@@ -79,3 +79,7 @@ body {
           float: none;
     }
 }
+
+.leaflet-popup-content img {
+    max-width: 100%;
+}
