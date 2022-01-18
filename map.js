@@ -71,6 +71,9 @@ function update() {
 
     // Remove existing markers
     removeMarkers();
+    
+    //Clear list "list.js"
+    clearList();
 
     // Add location marker back if it exists
     if(location_marker != undefined) {
