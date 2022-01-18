@@ -1,4 +1,6 @@
-var map = L.map('mapid', { zoomControl: false }).setView([47.48, -0.55], 13);
+var map = L.map('mapid', { 
+    zoomControl: false}
+).setView([47.48, -0.55], 13);
 
 var osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', {
     attribution: '(c) <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
