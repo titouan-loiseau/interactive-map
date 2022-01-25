@@ -113,7 +113,9 @@ function update() {
                         layer.bindPopup('<h1>'+feature.properties.name+'</h1><hr><br>'
                                     + String(feature.properties.description).replaceAll("\n", "<br>") 
                                     );
-                        addPoint(feature);
+                        if(feature.geometry.type=="Point"){
+                            addPoint(feature);
+                        }
                     }
                 }).addTo(map);
             }
