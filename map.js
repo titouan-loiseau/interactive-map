@@ -114,7 +114,7 @@ function update() {
                                     + String(feature.properties.description).replaceAll("\n", "<br>") 
                                     );
                         if(feature.geometry.type=="Point"){
-                            addPoint(feature);
+                            addPoint(feature, useIcon);
                         }
                     }
                 }).addTo(map);

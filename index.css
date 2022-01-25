@@ -121,9 +121,8 @@ body {
 .bloc img{
     width: 75px;
     height: 75px;
-    /*background: green;*/
+    background: #F5F5F5;
     border-radius: 10px 0 0 10px;
-    object-fit: cover
 
 }
 
@@ -202,4 +201,4 @@ body {
 .open-nav:hover .navIcon{
     left: -10px;    
 }
-  
+ 
