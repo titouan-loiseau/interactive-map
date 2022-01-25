@@ -133,6 +133,8 @@ body {
     color: #000;
     border-radius: 0 10px 0 0 ;
     border-bottom: solid 1px #000;
+    overflow: hidden;
+
 }
 
 .bloc .description{
@@ -146,22 +148,58 @@ body {
 .open-nav {
     cursor: pointer;
     text-align: center;
-    font-size: 35px;
+    font-size: 25px;
+    background: rgb(255 255 255 / 75%);
+    width: 250px;
+    margin: 0 auto;
+    border-radius: 40px 40px 0 0;
+    z-index: 10;
+
 }
-  
+
+.open-nav:hover{
+    background: white;
+}
+
 .navbar-bottom {
-  height: 170px;
-  background-color: rgb(255 255 255 / 55%);
+  height: 150px;
   width: 100%;
   display: flex;
   flex-direction: column;
   position: fixed;
-  bottom: -105px;
+  bottom: -120px;
   transition: all .5s;
-  z-index: 10;
 }
-  
+
+#list{
+    background: white;
+}
+.open-nav:not(.opened) {
+    background: rgb(255 255 255 / 75%);
+}
+.opened .open-nav{
+    background: white;
+}
+
+
 .opened {
     bottom: 0;
-    background: #fff;
 }
+
+.navIcon{
+    width: 20px;
+    height: 20px;
+    transform: rotate(180deg);
+    transition-duration: 0.5s;
+    margin-right: 10px;
+
+}
+
+.opened .navIcon{
+    transform: rotate(0deg);
+}
+  
+.open-nav:hover .navIcon{
+    left: -10px;    
+}
+  
