@@ -161,10 +161,6 @@ body {
     background: white;
 }
 
-.open-nav:hover .navIcon{
-    left: -10px;    
-}
-  
 .navbar-bottom {
   height: 150px;
   width: 100%;
@@ -176,12 +172,15 @@ body {
 }
 
 #list{
-    background-color: white;
+    background: white;
 }
-
+.open-nav:not(.opened) {
+    background: rgb(255 255 255 / 75%);
+}
 .opened .open-nav{
     background: white;
 }
+
 
 .opened {
     bottom: 0;
@@ -198,5 +197,9 @@ body {
 
 .opened .navIcon{
     transform: rotate(0deg);
+}
+  
+.open-nav:hover .navIcon{
+    left: -10px;    
 }
   
