@@ -1,6 +1,6 @@
 {
   "type": "umap",
-  "uri": "https://umap.openstreetmap.fr/fr/map/angers_699285#14/47.4703/-0.5625",
+  "uri": "https://umap.openstreetmap.fr/fr/map/angers_699285#14/47.4692/-0.5600",
   "properties": {
     "easing": true,
     "embedControl": true,
@@ -897,7 +897,7 @@
           "type": "Feature",
           "properties": {
             "name": "Made Burger",
-            "description": "Address : 55 rue Saint Laud, 49100, Angers France"
+            "description": "Address : 55 rue Saint Laud, 49100, Angers France\n\nMade is the perfect place for a burger in Angers: their creations are unique, tasty and good-looking. You will not lose much time and be able to quickly go back to your day of visits thanks to their reactive service. \n\n<img src=https://tse1.mm.bing.net/th?id=OIP.Ci4-JyT00wXL_KLyzY2RWgHaFT&pid=Api>"
           },
           "geometry": {
             "type": "Point",
@@ -1000,7 +1000,7 @@
           "type": "Feature",
           "properties": {
             "name": "Le Colisée:",
-            "description": "8 bis Bd du Maréchal Foch, 49100 Angers, France\n\nTired after a long day of visits? In this situation, nothing is better than taking a break and having fun. No better place for this than Le Colisée! This modern bowling located in the town centre will allow you to let off steam with friends around a close bowling game. Plenty of other activities are possible as well: darts, pool or even just having a drink and enjoying the festive atmosphere. You will have understood it: there is something to suit all tastes!\n\n<img src=https://49.kidiklik.fr/images/agendas/50_5b44824cc63d5.jpeg>"
+            "description": "8 bis Bd du Maréchal Foch, 49100 Angers, France<\\br>\n\nTired after a long day of visits? In this situation, nothing is better than taking a break and having fun. No better place for this than Le Colisée! This modern bowling located in the town centre will allow you to let off steam with friends around a close bowling game. Plenty of other activities are possible as well: darts, pool or even just having a drink and enjoying the festive atmosphere. You will have understood it: there is something to suit all tastes!\n\n<img src=https://49.kidiklik.fr/images/agendas/50_5b44824cc63d5.jpeg>"
           },
           "geometry": {
             "type": "Point",
@@ -1617,7 +1617,8 @@
         {
           "type": "Feature",
           "properties": {
-            "name": "Parc de l’arboretum"
+            "name": "Parc de l’arboretum",
+            "description": "<img src=https://tse2.mm.bing.net/th?id=OIP.4pKyInLsTMXvUyapi8QJkQHaFj&pid=Api>"
           },
           "geometry": {
             "type": "Polygon",
@@ -1678,7 +1679,8 @@
         {
           "type": "Feature",
           "properties": {
-            "name": "Parc de l’arboretum"
+            "name": "Parc de l’arboretum",
+            "description": "<img src=https://tse2.mm.bing.net/th?id=OIP.4pKyInLsTMXvUyapi8QJkQHaFj&pid=Api>"
           },
           "geometry": {
             "type": "Point",
@@ -2131,20 +2133,6 @@
         {
           "type": "Feature",
           "properties": {
-            "name": "Cinéma Pathé",
-            "description": "<img src=https://www.cinemaspathegaumont.com/media/offer/common/backdrop/30229/pathe-angers-001.jpg>"
-          },
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -0.550089,
-              47.47924
-            ]
-          }
-        },
-        {
-          "type": "Feature",
-          "properties": {
             "name": "Maison d'Adam",
             "description": "Address: 1 Place Sainte-Croix, 49100 Angers\nTiming: 09:30 am - 07:00 pm\nContact: +33241880627\n\nThere are many historic buildings in Angers, among them many houses, but this is one of the most impressive, with its elaborately carved wooden exterior. These days it houses what we would call an art and craft center, but you don't need to go inside to enjoy the aesthetic of a very handsome old structure. If you decide to go in however, it is fascinating to walk around. The staff are helpful but not pushy and you may also be tempted to buy some of the arts and crafts within.\nIt is located behind the Cathedral and is a symbol of the architecture of the times\n\n<img src=https://c2.staticflickr.com/4/3857/15150694882_9da486e370_b.jpg>",
             "_umap_options": {
@@ -2233,7 +2221,7 @@
           "type": "Feature",
           "properties": {
             "name": "Théatre \"Le Quai\"",
-            "description": "Address : Cale de la Savatte, 49100 Angers\n\nLe Quai is a space for creation, shows and meetings for all audiences, a place where all the living, plastic, digital, scenic, lyrical, circus, theater, dance, music … It offers lots of different shows depending on the season.\n\n<img src=https://agendaculturel.emstorage.fr/theatre-le-quai-65157057.jpg<"
+            "description": "Address : Cale de la Savatte, 49100 Angers\n\nLe Quai is a space for creation, shows and meetings for all audiences, a place where all the living, plastic, digital, scenic, lyrical, circus, theater, dance, music … It offers lots of different shows depending on the season.\n\n<img src=https://agendaculturel.emstorage.fr/theatre-le-quai-65157057.jpg>"
           },
           "geometry": {
             "type": "Point",
@@ -2291,7 +2279,7 @@
         {
           "type": "Feature",
           "properties": {
-            "name": "Proposed itinerary "
+            "name": "Fantastic Touristic Itinerary "
           },
           "geometry": {
             "type": "LineString",
@@ -2453,7 +2441,8 @@
         "browsable": true,
         "remoteData": {},
         "name": "Itinéraire",
-        "color": "Black"
+        "color": "Black",
+        "id": 2047661
       }
     }
   ]
