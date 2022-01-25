@@ -7,24 +7,31 @@ function addPoint(data){
     const bloc = document.createElement('div');
     bloc.className="bloc";
 
-    const image = document.createElement('img');
-    image.src=data.properties.image;
+
 
     const content = document.createElement('div');
     content.className="content";
 
-    const title = document.createElement('div');
-    title.className="title";
-    title.appendChild(document.createTextNode(data.properties.name));
+
+    content.appendChild(document.createTextNode(data.properties.name));
+
+    
+    const image = document.createElement('img');
 
 
-    const description = document.createElement('div');
-    description.className="description";
-    description.appendChild(document.createTextNode(data.properties.description));
+    
+    if(data.properties.description!=undefined && data.properties.description.includes('<img')){
+        
+        image.src=data.properties.description.substring(
+            data.properties.description.indexOf("src=") + 4, 
+            data.properties.description.lastIndexOf(">")
+        );
+
+    }
 
     bloc.appendChild(image);
-    content.appendChild(title);
-    content.appendChild(description);
+
+
 
     bloc.appendChild(content);
 
