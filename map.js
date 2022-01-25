@@ -12,54 +12,54 @@ map.addLayer(osmLayer);
 
 let iconArray = [
     L.icon({
-        iconUrl: 'icons/important.png',
-        iconSize: [32, 41],
-        iconAnchor: [16, 41]
+        iconUrl: 'new_icons/important.png',
+        iconSize: [39, 51],
+        iconAnchor: [39/2, 51]
     }),
     L.icon({
-        iconUrl: 'icons/univ.png',
-        iconSize: [32, 41],
-        iconAnchor: [16, 41]
+        iconUrl: 'new_icons/univ.png',
+        iconSize: [39, 51],
+        iconAnchor: [39/2, 51]
     }),
     L.icon({
-        iconUrl: 'icons/atm.png',
-        iconSize: [32, 41],
-        iconAnchor: [16, 41]
+        iconUrl: 'new_icons/atm.png',
+        iconSize: [39, 51],
+        iconAnchor: [39/2, 51]
     }),
     L.icon({
-        iconUrl: 'icons/shops.png',
-        iconSize: [32, 41],
-        iconAnchor: [16, 41]
+        iconUrl: 'new_icons/shops.png',
+        iconSize: [39, 51],
+        iconAnchor: [39/2, 51]
     }),
     L.icon({
-        iconUrl: 'icons/bars.png',
-        iconSize: [32, 41],
-        iconAnchor: [16, 41]
+        iconUrl: 'new_icons/bars.png',
+        iconSize: [39, 51],
+        iconAnchor: [39/2, 51]
     }),
     L.icon({
-        iconUrl: 'icons/train-station.png',
-        iconSize: [32, 41],
-        iconAnchor: [16, 41]
+        iconUrl: 'new_icons/train-station.png',
+        iconSize: [39, 51],
+        iconAnchor: [39/2, 51]
     }),
     L.icon({
-        iconUrl: 'icons/sports.png',
-        iconSize: [32, 41],
-        iconAnchor: [16, 41]
+        iconUrl: 'new_icons/sports.png',
+        iconSize: [39, 51],
+        iconAnchor: [39/2, 51]
     }),
     L.icon({
-        iconUrl: 'icons/parks.png',
-        iconSize: [32, 41],
-        iconAnchor: [16, 41]
+        iconUrl: 'new_icons/parks.png',
+        iconSize: [39, 51],
+        iconAnchor: [39/2, 51]
     }),
     L.icon({
-        iconUrl: 'icons/culture.png',
-        iconSize: [32, 41],
-        iconAnchor: [16, 41]
+        iconUrl: 'new_icons/culture.png',
+        iconSize: [39, 51],
+        iconAnchor: [39/2, 51]
     }),
     L.icon({
-        iconUrl: 'icons/Health.png',
-        iconSize: [32, 41],
-        iconAnchor: [16, 41]
+        iconUrl: 'new_icons/Health.png',
+        iconSize: [39, 51],
+        iconAnchor: [39/2, 51]
     })
 ];
 
@@ -86,7 +86,7 @@ function update() {
 
 
     // Read data
-    $.getJSON("test.umap", function(readData) {
+    $.getJSON("angers.umap", function(readData) {
 
         // Loop through every layer
         readData.layers.forEach(dataPoi => {
@@ -111,7 +111,7 @@ function update() {
                     },
                     onEachFeature: function(feature, layer) {
                         layer.bindPopup('<h1>'+feature.properties.name+'</h1><hr><br>'
-                                    + feature.properties.description 
+                                    + String(feature.properties.description).replaceAll("\n", "<br>") 
                                     );
                         addPoint(feature);
                     }
