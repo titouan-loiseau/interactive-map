@@ -57,7 +57,7 @@ let iconArray = [
         iconAnchor: [39/2, 51]
     }),
     L.icon({
-        iconUrl: 'new_icons/Health.png',
+        iconUrl: 'new_icons/health.png',
         iconSize: [39, 51],
         iconAnchor: [39/2, 51]
     })
