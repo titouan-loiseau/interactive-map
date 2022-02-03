@@ -63,7 +63,7 @@ let iconArray = [
     })
 ];
 
-let filters = [true, true, true, true, true, true, true, true, true, true, true, true, true];
+let filters = [true, false, false, false, false, false, false, false, false, false, false, false, false];
 let location_marker = undefined, location_circle = undefined;
 
 function update() {
